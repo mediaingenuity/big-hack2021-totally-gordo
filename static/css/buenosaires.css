@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Buenos Aires';
+  src: url('typography/BuenosAires-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('typography/BuenosAires-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('typography/BuenosAires-SemiBold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('typography/BuenosAires-SemiBold.woff')
+      format('woff'); /* Pretty Modern Browsers */
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
