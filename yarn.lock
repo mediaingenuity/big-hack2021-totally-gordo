@@ -1790,7 +1790,7 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@reach/router@^1.2.1":
+"@reach/router@^1.2.1", "@reach/router@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
   integrity sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==
@@ -8162,6 +8162,11 @@ gatsby-plugin-typescript@^3.9.0:
     "@babel/runtime" "^7.14.0"
     babel-plugin-remove-graphql-queries "^3.9.0"
 
+gatsby-plugin-use-query-params@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-use-query-params/-/gatsby-plugin-use-query-params-1.0.1.tgz#5e4982580d2e9bad15d243186cff379afef8a207"
+  integrity sha512-k3xaKuf8VhLq6/arocYRZqiQMTQ84ZRY0JklsO4tuKsRqi64b94zGf6B8SZn6yo0fvtJ/zw684DpH77y/iKdbA==
+
 gatsby-plugin-utils@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.9.0.tgz#64b35a0faaabad5b5c99ee8951a9c08cd64be289"
@@ -13356,6 +13361,16 @@ query-string@^6.13.1, query-string@^6.13.8:
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
+query-string@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.0.1.tgz#45bd149cf586aaa582dffc7ec7a8ad97dd02f75d"
+  integrity sha512-uIw3iRvHnk9to1blJCG3BTc+Ro56CBowJXKmNNAm3RulvPBzWLRqKSiiDk+IplJhsydwtuNMHi8UGQFcCLVfkA==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystring-es3@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
@@ -14405,6 +14420,11 @@ serialize-javascript@^6.0.0:
   integrity sha512-Qr3TosvguFt8ePWqsvRfrKyQXIiW+nGbYpy8XK24NQHE83caxWt+mIymTT19DGFbNWNLfEwsrkSmN64lVWB9ag==
   dependencies:
     randombytes "^2.1.0"
+
+serialize-query-params@^1.3.3:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/serialize-query-params/-/serialize-query-params-1.3.4.tgz#21a6a1c6110ac46aa23a269a0e1517e4de3204ed"
+  integrity sha512-hSVbcw7DLktsgdbfcFrwIFDxM1m/EBvba/YJe/uYeN58FMHrhza9VgM5S4EruJnDlB2YShynfTgnYpVkN23rxA==
 
 serve-favicon@^2.5.0:
   version "2.5.0"
@@ -16280,6 +16300,13 @@ use-callback-ref@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.2.5.tgz#6115ed242cfbaed5915499c0a9842ca2912f38a5"
   integrity sha512-gN3vgMISAgacF7sqsLPByqoePooY3n2emTH59Ur5d/M8eg4WTWu1xp8i8DHjohftIyEx0S08RiYxbffr4j8Peg==
+
+use-query-params@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/use-query-params/-/use-query-params-1.2.2.tgz#4c4b274133d699605301510b5aa01047f92b5ce0"
+  integrity sha512-Uyfe+/TECsNNzCSkgUM1MM24OEGxGE4aeWvZEf0a14iQFp/m43wiqI1HZ9oTlrRSZwD5yABeLc9rN+wtiB5B3Q==
+  dependencies:
+    serialize-query-params "^1.3.3"
 
 use-sidecar@^1.0.5:
   version "1.0.5"
