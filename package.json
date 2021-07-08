@@ -23,6 +23,9 @@
   },
   "dependencies": {
     "@totallymoney/ui": "^2.17.1",
+    "d3": "^7.0.0",
+    "d3-scale": "^4.0.0",
+    "d3-shape": "^3.0.1",
     "gatsby": "^3.1.2",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.14",
