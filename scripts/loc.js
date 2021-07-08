@@ -7,30 +7,25 @@ const { run, getRepoList, getLastCommitBefore } = require("./utils");
 // get repos that aren't jupyter notebooks:
 
 const quarters = [
-  // new Date(2017, 0, 1),
-  // new Date(2017, 3, 1),
-  // new Date(2017, 6, 1),
-  // new Date(2017, 9, 1),
   new Date(2018, 0, 1), //jan
-  new Date(2018, 3, 1), // april
+  // new Date(2018, 3, 1), // april
   new Date(2018, 6, 1), // july
-  new Date(2018, 9, 1), // october
+  // new Date(2018, 9, 1), // october
   new Date(2019, 0, 1),
-  new Date(2019, 3, 1),
+  // new Date(2019, 3, 1),
   new Date(2019, 6, 1),
-  new Date(2019, 9, 1),
+  // new Date(2019, 9, 1),
   new Date(2020, 0, 1),
-  new Date(2020, 3, 1),
+  // new Date(2020, 3, 1),
   new Date(2020, 6, 1),
-  new Date(2020, 9, 1),
+  // new Date(2020, 9, 1),
   new Date(2021, 0, 1),
-  new Date(2021, 3, 1),
-  new Date(2021, 7, 1),
+  // new Date(2021, 3, 1),
+  new Date(2021, 6, 8),
 ];
 
 const eligibleRepos = [
   "TotallyMoney.Remortgages",
-  "Totallymoney.Proxy",
   "CreditCards.WebApp",
   "basin.server",
   "TotallyMoney.Mortgages.Admin",
@@ -63,10 +58,6 @@ const eligibleRepos = [
   "devops",
   "Fluid.FakeIssuer",
   "Fluid.Test",
-  "Fluid.Proxy.prod",
-  "Fluid.Proxy.uat",
-  "Fluid.Proxy.stage",
-  "Marbles.Proxy",
   "CreditCards.ScoreBuilder",
   "SftpLambda",
   "FreeCreditReport.Lambda",
@@ -97,7 +88,6 @@ const eligibleRepos = [
   "Judas.Silver",
   "TotallyMoney.Snowflake.ViewDefinitions",
   "Launchpad",
-  "Looker.Snowflake",
   "CreditCards.Provider.Tappily",
   "c-agent",
   "JWT.Authentication.Provider",
@@ -180,40 +170,13 @@ async function generateLocStats() {
   let repos = await getRepoList();
   repos = repos.filter((repo) => eligibleRepos.includes(repo.name));
 
-  console.log(repos.length);
-  console.log(
-    JSON.stringify(
-      repos.map(({ name }) => name),
-      null,
-      2
-    )
-  );
-  return;
-  // const repos = [
-  //   {
-  //     name: "Account",
-  //     git_url: "https://github.com/mediaingenuity/Account.git",
-  //     ssh_url: "git@github.com:mediaingenuity/Account.git",
-  //   },
-  //   {
-  //     name: "Account.NativeApp",
-  //     ssh_url: "git@github.com:mediaingenuity/Account.NativeApp.git",
-  //   },
-  //   {
-  //     name: "TotallyMoney.UI",
-  //     ssh_url: "git@github.com:mediaingenuity/TotallyMoney.UI.git",
-  //   },
-  // ];
-
-  // init result
-
+  // initialise result
   const result = quarters.map((quarter) => ({
     date: quarter.toISOString(),
     repos: [],
   }));
 
   // for each repo
-
   for (repo of repos) {
     // clone it
     fs.mkdir(path.join(__dirname, "../../tmp"), () => {});
@@ -227,13 +190,12 @@ async function generateLocStats() {
     // go through dates and do the thing;
     for (quarter of quarters) {
       console.log(`${repo.name} at ${quarter}`);
+
       // get last commit before that quarter
       const commit = await getLastCommitBefore(
         repo.name,
         quarter.toISOString()
       );
-
-      // console.log(commit);
 
       if (!!commit) {
         // check it out and cloc it
@@ -245,7 +207,7 @@ async function generateLocStats() {
         );
 
         const locByFileType = Object.keys(clocced).reduce((acc, fileType) => {
-          if (fileType === "header" || fileType === "SUM") {
+          if (fileType === "header") {
             return acc;
           }
           acc[fileType] = clocced[fileType].code;
@@ -263,68 +225,10 @@ async function generateLocStats() {
     }
 
     // return home;
-    // await run("rm", `-rf ${repo.name}`);
+    await run("rm", `-rf ${repo.name}`);
     process.chdir(__dirname);
-    console.log(result);
     fs.writeFileSync(`./data.json`, JSON.stringify(result, null, 2), "utf8");
   }
-
-  // const result = await Promise.all(
-  //   quarters.map(async (quarter) => {
-  //     return {
-  //       date: quarter.toISOString(),
-  //       // for each repo
-  //       repos: await Promise.all(
-  //         repos.map(async (repo) => {
-  //           // get the latest commit at that quarter
-  //           const commit = await getLastCommitBefore(
-  //             repo.name,
-  //             quarter.toISOString()
-  //           );
-
-  //           // check that commit out
-  //           fs.mkdir(path.join(__dirname, "../../tmp"), () => {});
-  //           process.chdir(path.join(__dirname, "../../tmp"));
-  //           try {
-  //             await run("git", `clone ${repo.ssh_url}`);
-  //           } catch (e) {
-  //             // shh is already cloned
-  //           }
-  //           process.chdir(path.join(process.cwd(), repo.name));
-  //           await run("git", `checkout ${commit.sha}`);
-  //           process.chdir("../");
-  //           const clocced = JSON.parse(
-  //             await run("npx", `cloc ${repo.name} --skip-uniqueness --json`)
-  //           );
-  //           // console.log(JSON.parse(clocced));
-
-  //           const locByFileType = Object.keys(clocced).reduce(
-  //             (acc, fileType) => {
-  //               if (fileType === "header" || fileType === "SUM") {
-  //                 return acc;
-  //               }
-  //               acc[fileType] = clocced[fileType].code;
-  //               return acc;
-  //             },
-  //             {}
-  //           );
-
-  //           console.log(locByFileType);
-
-  //           return { name: repo.name, commit_sha: commit.sha };
-  //         })
-  //       ),
-  //     };
-  //   })
-  // );
-
-  // console.log(result);
-  // console.log(result[0].repos);
-
-  // cloc it
-
-  // write it to file
-  // await getLastCommitBefore(repos[0].name, quarters[3].toISOString());
 }
 
 generateLocStats();

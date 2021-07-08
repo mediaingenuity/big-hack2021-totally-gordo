@@ -1,0 +1,236 @@
+[
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "repos": []
+  },
+  {
+    "date": "2018-06-30T23:00:00.000Z",
+    "repos": []
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "repos": []
+  },
+  {
+    "date": "2019-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.Provider.Tappily",
+        "loc": {
+          "JSON": 2287,
+          "JavaScript": 644,
+          "YAML": 88,
+          "Markdown": 32,
+          "Bourne Shell": 30,
+          "SUM": 3081
+        }
+      },
+      {
+        "name": "c-agent",
+        "loc": {
+          "Python": 318,
+          "SUM": 318
+        }
+      },
+      {
+        "name": "JWT.Authentication.Provider",
+        "loc": {
+          "JSON": 5695,
+          "JavaScript": 86,
+          "YAML": 82,
+          "Bourne Shell": 28,
+          "Markdown": 2,
+          "SUM": 5893
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.Provider.Tappily",
+        "loc": {
+          "JSON": 2288,
+          "JavaScript": 912,
+          "YAML": 95,
+          "Markdown": 32,
+          "Bourne Shell": 30,
+          "SUM": 3357
+        }
+      },
+      {
+        "name": "c-agent",
+        "loc": {
+          "JavaScript": 14953,
+          "CSV": 8876,
+          "JSON": 8234,
+          "SVG": 2671,
+          "Python": 1637,
+          "Jupyter Notebook": 1615,
+          "CSS": 1176,
+          "HTML": 949,
+          "YAML": 139,
+          "Markdown": 32,
+          "DOS Batch": 26,
+          "reStructuredText": 16,
+          "Bourne Shell": 11,
+          "make": 9,
+          "SUM": 40344
+        }
+      },
+      {
+        "name": "JWT.Authentication.Provider",
+        "loc": {
+          "JSON": 5695,
+          "JavaScript": 86,
+          "YAML": 82,
+          "Bourne Shell": 28,
+          "Markdown": 2,
+          "SUM": 5893
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.Provider.Tappily",
+        "loc": {
+          "JSON": 2288,
+          "JavaScript": 912,
+          "YAML": 95,
+          "Markdown": 32,
+          "Bourne Shell": 30,
+          "SUM": 3357
+        }
+      },
+      {
+        "name": "c-agent",
+        "loc": {
+          "CSV": 67255,
+          "JavaScript": 14953,
+          "SVG": 2671,
+          "JSON": 2531,
+          "Jupyter Notebook": 2289,
+          "Python": 1845,
+          "CSS": 1176,
+          "HTML": 949,
+          "YAML": 143,
+          "Markdown": 28,
+          "DOS Batch": 26,
+          "reStructuredText": 16,
+          "Bourne Shell": 12,
+          "make": 9,
+          "SUM": 93903
+        }
+      },
+      {
+        "name": "JWT.Authentication.Provider",
+        "loc": {
+          "JSON": 5695,
+          "JavaScript": 86,
+          "YAML": 82,
+          "Bourne Shell": 28,
+          "Markdown": 2,
+          "SUM": 5893
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.Provider.Tappily",
+        "loc": {
+          "JSON": 2288,
+          "JavaScript": 912,
+          "YAML": 95,
+          "Markdown": 32,
+          "Bourne Shell": 30,
+          "SUM": 3357
+        }
+      },
+      {
+        "name": "c-agent",
+        "loc": {
+          "CSV": 128881,
+          "JavaScript": 14953,
+          "Jupyter Notebook": 3305,
+          "JSON": 2942,
+          "SVG": 2671,
+          "Python": 2228,
+          "CSS": 1176,
+          "HTML": 949,
+          "YAML": 151,
+          "Markdown": 28,
+          "DOS Batch": 26,
+          "reStructuredText": 16,
+          "Bourne Shell": 12,
+          "make": 9,
+          "SUM": 157347
+        }
+      },
+      {
+        "name": "JWT.Authentication.Provider",
+        "loc": {
+          "JSON": 5695,
+          "JavaScript": 86,
+          "YAML": 82,
+          "Bourne Shell": 28,
+          "Markdown": 2,
+          "SUM": 5893
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-07-31T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.Provider.Tappily",
+        "loc": {
+          "JSON": 2288,
+          "JavaScript": 912,
+          "YAML": 95,
+          "Markdown": 32,
+          "Bourne Shell": 30,
+          "SUM": 3357
+        }
+      },
+      {
+        "name": "c-agent",
+        "loc": {
+          "CSV": 128881,
+          "JavaScript": 14953,
+          "Jupyter Notebook": 3309,
+          "JSON": 3261,
+          "SVG": 2671,
+          "Python": 2367,
+          "CSS": 1176,
+          "HTML": 949,
+          "YAML": 161,
+          "Markdown": 28,
+          "DOS Batch": 26,
+          "Bourne Shell": 17,
+          "reStructuredText": 16,
+          "make": 9,
+          "SUM": 157824
+        }
+      },
+      {
+        "name": "JWT.Authentication.Provider",
+        "loc": {
+          "JSON": 5695,
+          "JavaScript": 84,
+          "YAML": 84,
+          "Bourne Shell": 28,
+          "Markdown": 2,
+          "SUM": 5893
+        }
+      }
+    ]
+  }
+]

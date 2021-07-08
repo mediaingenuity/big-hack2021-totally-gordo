@@ -20,18 +20,6 @@ async function getRepoList() {
       org: "mediaingenuity",
       per_page: 100,
     });
-    // console.log(repos);
-
-    // const munged = repos
-    //   .filter((repo) => repo.language)
-    //   .map((repo) => ({
-    //     created_at: repo.created_at,
-    //     description: repo.description,
-    //     html_url: repo.html_url,
-    //     language: repo.language,
-    //     languages_url: repo.languages_url,
-    //     name: repo.name,
-    //   }));
 
     return repos;
   } catch (e) {
@@ -49,8 +37,6 @@ async function getLastCommitBefore(repoName, before) {
       per_page: 1,
     }
   );
-
-  // console.log(commits);
 
   return commits[0];
 }
