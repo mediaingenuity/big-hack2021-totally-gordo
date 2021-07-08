@@ -4,6 +4,7 @@ import Button from "@totallymoney/ui/components/Button"
 import { init } from "./chart"
 import data from "../../../data.json"
 import theme from "@totallymoney/ui/theme"
+import { createNodes } from "../../util/createNodes"
 
 export const Page = styled.div`
   width: 100%;
@@ -34,14 +35,13 @@ export const ToolTip = styled.div`
 `
 
 const RepoHistory = () => {
-  const { data: newdata } = data
   const [drawing, setDrawing] = React.useState<any>(null)
   const containerRef = React.useRef<HTMLDivElement | null>(null)
 
   React.useEffect(() => {
     let force
     if (!drawing) {
-      const objDraw = init(containerRef.current, newdata[0])
+      const objDraw = init(containerRef.current, createNodes(data[0]))
       force = objDraw.force
       setDrawing(objDraw)
     }
@@ -50,12 +50,12 @@ const RepoHistory = () => {
 
   const handleSelectYear = (time: number) => {
     drawing.force.stop()
-    drawing.graph.update(newdata[time])
+    drawing.graph.update(createNodes(data[time]))
   }
 
   return (
     <Page>
-      {newdata.map((d, index) => {
+      {data.map((d, index) => {
         return (
           <Button
             key={`btn_${index}`}
