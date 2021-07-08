@@ -1,130 +1,122 @@
-import { drag } from "../../util/drag"
-import { sum, max } from "../../util/basicMath"
+import * as React from "react"
 import * as d3 from "d3"
 
-function charge(d) {
-  return Math.pow(d.radius, 3.0) * 0.01
-}
+import { drag } from "../../util/drag"
+import { sum, max } from "../../util/basicMath"
 
-export default function draw(container: HTMLDivElement, data: any) {
+const colors = d3.scaleLinear().domain([1, 25]).range(d3.schemeDark2)
+
+export const init = (container: HTMLDivElement, data) => {
+  const nodes = data.repos
+
   const containerRect = container.getBoundingClientRect()
-  const height = containerRect.height
-  const width = containerRect.width
-  const centre = { x: width / 2, y: height / 2 }
+  const HEIGHT = containerRect.height
+  const WIDTH = containerRect.width
+  const centre = { x: WIDTH / 2, y: HEIGHT / 2 }
   const forceStrength = 0.1
-  const fillColour = d3.scaleOrdinal(d3.schemePaired)
 
-  const createNodes = (rawData) => {
-    const maxSize = d3.max(rawData.repos, (d) => max(d.loc))
-    const radiusScale = d3.scaleSqrt().domain([0, maxSize]).range([0, 80])
+  const maxSize = d3.max(data.repos, (d) => max(d.loc))
+  const radiusScale = d3.scaleSqrt().domain([0, maxSize]).range([0, 120])
 
-    const nodes = rawData.repos.map((d) => ({
-      ...d,
-      radius: radiusScale(sum(d.loc)),
-      size: sum(d.loc),
-      x: Math.random() * width,
-      y: Math.random() * height,
-      year: rawData.date,
-    }))
+  let ticked
 
-    nodes.sort(function (a, b) {
-      return b.value - a.value
-    })
+  const SVG = d3
+    .select(container)
+    .append("svg")
+    .attr("viewBox", [-WIDTH / 2, -HEIGHT / 2, WIDTH, HEIGHT])
 
-    return nodes
+  const forceSimulation = d3
+    .forceSimulation(nodes)
+    .force(
+      "collision",
+      d3.forceCollide().radius((d) => radiusScale(d.loc.SUM))
+    )
+    .force("center", d3.forceCenter().strength(1))
+    .force("charge", d3.forceManyBody().strength(-300))
+    .force("x", d3.forceX())
+    .force("y", d3.forceY())
+    .alphaTarget(0.1)
+
+  let node = SVG.append("g")
+    .selectAll("circle")
+    .data(nodes)
+    .join((enter) =>
+      enter
+        .append("circle")
+        .attr("class", (d) => `github ${d.name}`)
+        .attr("cx", (d) => d.x)
+        .attr("cy", (d) => d.y)
+        .attr("r", 0)
+        .attr("fill", (d) => colors(d.index))
+        .call(drag(forceSimulation))
+    )
+
+  node.transition().duration(1000)
+
+  let tooltip = d3.select("#tooltip")
+
+  ticked = () => {
+    node
+      .attr("cx", (d) => d.x)
+      .attr("cy", (d) => d.y)
+      .attr("r", (d) => radiusScale(d.loc.SUM))
+      .attr("fill", (d) => colors(d.index))
   }
 
-  let forceSimulation = d3
-    .forceSimulation()
-    .velocityDecay(0.5)
-    .force("x", d3.forceX().strength(forceStrength).x(centre.x))
-    .force("y", d3.forceY().strength(forceStrength).y(centre.y))
-    .force("charge", d3.forceManyBody().strength(0.2))
-  // .force(
-  //   "collision",
-  //   d3.forceCollide().radius((d) => {
-  //     return d.radius + 3
-  //   })
-  // )
+  forceSimulation.stop()
 
-  const chart = (selector, rawData) => {
-    const nodes = createNodes(rawData)
-
-    const svg = d3
-      .select(selector)
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height)
-
-    let group = svg.append("g")
-
-    let node = group
-      .selectAll("circle")
-      .data(nodes, (d) => d.id)
-      .join((enter) =>
-        enter
-          .append("circle")
-          .attr("class", (d) => `repo ${d.name}`)
-          .attr("r", 0)
-          .attr("fill", (d, i) => fillColour(i))
-      )
-
-    node
-      .transition()
-      .duration(1500)
-      .attr("r", (d) => d.radius)
-
-    // const labels = elements
-    //   .append("text")
-    //   .attr("dy", ".3em")
-    //   .style("text-anchor", "middle")
-    //   .style("font-size", 10)
-    //   .text((d) => d.name)
-    //   .style("opacity", 0)
-
-    // labels.transition().duration(3000).style("opacity", 1)
-
-    // Where the force updates the positioning
-    function ticked() {
-      node.attr("cx", (d) => d.x).attr("cy", (d) => d.y)
-      // labels.attr("x", (d) => d.x).attr("y", (d) => d.y)
-    }
-
-    forceSimulation.nodes(nodes).on("tick", ticked).restart()
-
-    return Object.assign(svg.node(), {
-      update(nodes) {
+  return {
+    force: forceSimulation,
+    graph: Object.assign(SVG.node(), {
+      update(data) {
+        const nodes = data.repos
         const oldNodesMap = new Map(node.data().map((d) => [d.index, d]))
         const newNodes = nodes.map((d) => {
           return Object.assign(oldNodesMap.get(d.id) || {}, d)
         })
 
-        node = node.join((update) =>
-          update.attr("cx", (d) => d.x).attr("cy", (d) => d.y)
-        )
+        node = node
+          .data(newNodes, (d) => d.id)
+          .join((enter) =>
+            enter
+              .append("circle")
+              .attr("class", (d) => `github ${d.name}`)
+              .attr("cx", (d) => d.x)
+              .attr("cy", (d) => d.y)
+              .attr("r", (d) => {
+                console.log(d)
+                return radiusScale(d.loc.SUM)
+              })
 
-        forceSimulation.nodes(nodes)
-        forceSimulation.alpha(1).restart()
+              .call(drag(forceSimulation))
+          )
+          .selection()
+
+        node
+          .transition()
+          .duration(1000)
+          .attr("cx", (d) => d.x)
+          .attr("cy", (d) => d.y)
+
+        node.on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .style("display", "flex")
+            .style("left", event.pageX + 10 + "px")
+            .style("top", `${event.pageY + Object.keys(d.loc).length}px`).html(`
+              ${d.name} <br/><br/>
+              ${Object.keys(d.loc).map((key) => `${key} ${d.loc[key]} <br/>`)}
+              `)
+        })
+
+        node.on("mouseout", (event, d) => {
+          tooltip.style("opacity", 0).style("display", "none")
+        })
+
+        forceSimulation.nodes(newNodes)
+        forceSimulation.alphaTarget(0.01).restart().tick()
+        forceSimulation.on("tick", ticked)
       },
-    })
-  }
-
-  // @ts-ignore
-  const graph = chart(container, data)
-
-  return {
-    force: forceSimulation,
-    graph,
-    createNodes,
+    }),
   }
 }
-
-// repo = repo
-//   .data(newNodes)
-//   .join((enter) =>
-//     enter
-//       .append("circle")
-//       .attr("r", (d) => d.radius)
-//       .call(drag(forceSimulation))
-//   )
-//   .selection()
