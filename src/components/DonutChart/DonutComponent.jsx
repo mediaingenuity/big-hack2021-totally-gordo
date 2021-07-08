@@ -3,7 +3,6 @@ import { scaleOrdinal } from "d3-scale";
 import { pie } from "d3-shape";
 import { schemeCategory10 } from "d3";
 
-import { donutChartData } from "../../testData";
 import SliceComponent from "./SliceComponent";
 
 const donutTextStyle = {
@@ -13,7 +12,7 @@ const donutTextStyle = {
 };
 
 const DonutComponent = props => {
-    const { x, y, onChangeGroup } = props;
+    const { x, y, data, onChangeGroup } = props;
 
     //react hooks
     const [donutTitle, setDonutTitle] = useState("");
@@ -28,19 +27,20 @@ const DonutComponent = props => {
         setDonutTitle(label);
         setSelectedCount(value.data);
         setTextFill(fill);
-        onChangeGroup(label, fill);
+        // onChangeGroup(label, fill);
     };
 
     //wrapper function for the pie chart to
     //render slices as ReactJs components
     const renderSlice = measure => {
         const index = measure.index;
+        const content = Object.entries(data.loc)
         return (
             <SliceComponent
                 key={index}
                 index={index}
                 value={measure}
-                label={donutChartData[index].group}
+                label={content[index][0]}
                 fill={colorScale(index)}
                 onClickSlice={onClickSlice}
             />
@@ -50,7 +50,7 @@ const DonutComponent = props => {
     //creation of the pie
     let pieChart = pie().sort(null);
     //creation of the data array from test data
-    const measures = donutChartData.map(item => item.measure);
+    const measures = Object.entries(data.loc).map(([_, value]) => value);
 
     return (
         <g transform={`translate(${x}, ${y})`}>
@@ -69,7 +69,7 @@ const DonutComponent = props => {
                 )}
                 {selectedCount && (
                     <tspan dy="1.5em" x="0.3em">
-                        {selectedCount * 100}%
+                        {selectedCount}%
                     </tspan>
                 )}
             </text>
