@@ -82,7 +82,7 @@ const BarChart = props => {
             transform={`scale(1, -1)`}
             style={barTextStyle}
         >
-            {selectedData[0].group} Sales Breakdown 2012
+            {selectedData[0].group} Code breakdown 2021
         </text>
     );
 

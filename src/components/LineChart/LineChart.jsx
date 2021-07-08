@@ -126,7 +126,7 @@ const LineChart = props => {
                 x={22}
                 y={-2}
             >
-                Performance 2012
+                Number of lines added in 2021
             </text>
             <text
                 textAnchor="middle"

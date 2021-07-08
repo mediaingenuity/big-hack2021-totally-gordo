@@ -7,7 +7,7 @@ import { donutChartData } from "../../testData";
 import SliceComponent from "./SliceComponent";
 
 const donutTextStyle = {
-    fontSize: "2px",
+    fontSize: "1.5px",
     fontFamily: "verdana",
     fontWeight: "bold"
 };

@@ -28,7 +28,7 @@ const AccountNative = () => {
     return (
         <Layout>
             <Page>
-                <Header>App repository</Header>
+                <Header>Repositories Overview</Header>
                 <svg viewBox="-2 0 100 100" preserveAspectRatio="xMidYMid meet">
                     <DonutComponent x={15} y={20} onChangeGroup={updateBarChart} />
                     <BarChart
