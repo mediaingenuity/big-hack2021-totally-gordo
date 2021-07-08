@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { line, max, scaleLinear, select } from "d3"
-import { lineChartData } from "../../testData"
+// import { lineChartData } from "../../testData"
 
 const lineTitleTextStyle = {
     fontSize: "8px",
@@ -41,18 +41,18 @@ const animateDots = (
 
     const dots = dotsContainer.selectAll("circle")
 
-    const getDotColour = index => {
-        const measures = selectedData.map(item => item.measure)
-        const minValue = Math.min.apply(null, measures)
-        const maxValue = Math.max.apply(null, measures)
-        let fillColour = "white"
-        if (measures[index] === minValue) {
-            fillColour = "red"
-        } else if (measures[index] === maxValue) {
-            fillColour = "green"
-        }
-        return fillColour
-    }
+    // const getDotColour = index => {
+    //     const measures = selectedData.map(item => item.measure)
+    //     const minValue = Math.min.apply(null, measures)
+    //     const maxValue = Math.max.apply(null, measures)
+    //     let fillColour = "white"
+    //     if (measures[index] === minValue) {
+    //         fillColour = "red"
+    //     } else if (measures[index] === maxValue) {
+    //         fillColour = "green"
+    //     }
+    //     return fillColour
+    // }
 
     dots.each(function (d, i) {
         select(this)
@@ -67,7 +67,7 @@ const animateDots = (
 }
 
 const Dots = props => {
-    const { xScale, yScale, dotsColour, selectedData } = props
+    const { group, xScale, yScale, dotsColour, selectedData } = props
     const dotsRef = React.createRef()
 
     useEffect(() => {
@@ -76,7 +76,7 @@ const Dots = props => {
     })
 
     const dots = selectedData.map((item, index) => (
-        <circle key={index} r={0.3}>
+        <circle key={index} r={0.4}>
             <title>{`${item.category}: ${Math.floor(item.measure)}`}</title>
         </circle>
     ))
@@ -101,20 +101,18 @@ const Line = props => {
 }
 
 const LineChart = props => {
-    const { selectedGroup, lineColour, positionX, positionY } = props
+    const { group, lineColour, positionX, positionY, lineChartData } = props
     const margin = { top: 20, right: 10, bottom: 0, left: 50 }
-    const selectedData = lineChartData.filter(
-        datum => datum.group === selectedGroup,
-    )
+
     const width = 600 - margin.left - margin.right
     const height = 150 - margin.top - margin.bottom
 
     const xScale = scaleLinear()
-        .domain([0, selectedData.length - 1])
+        .domain([0, lineChartData.length - 1])
         .range([0, width])
 
     const yScale = scaleLinear()
-        .domain([0, max(selectedData, d => d.measure)])
+        .domain([0, max(lineChartData, d => d.measure)])
         .range([height, 0])
 
     return (
@@ -132,13 +130,14 @@ const LineChart = props => {
                 xScale={xScale}
                 yScale={yScale}
                 lineColour={lineColour}
-                selectedData={selectedData}
+                selectedData={lineChartData}
             />
             <Dots
                 xScale={xScale}
                 yScale={yScale}
                 dotsColour={lineColour}
-                selectedData={selectedData}
+                selectedData={lineChartData}
+                group={group}
             />
         </g>
     )
