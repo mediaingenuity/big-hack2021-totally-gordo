@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 446956,
+          "JSX": 26577,
+          "C#": 26556,
+          "JavaScript": 25932,
+          "TypeScript": 13128,
+          "F#": 4744,
+          "Elm": 3202,
+          "F# Script": 3075,
+          "LESS": 2153,
+          "MSBuild script": 1896,
+          "XML": 845,
+          "Markdown": 779,
+          "YAML": 773,
+          "SVG": 746,
+          "SQL": 700,
+          "Bourne Shell": 442,
+          "EJS": 210,
+          "Sass": 109,
+          "Visual Studio Solution": 96,
+          "Python": 49,
+          "Dockerfile": 32,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 34265,
+          "TypeScript": 29002,
+          "YAML": 1070,
+          "XML": 799,
+          "JSON": 773,
+          "Java": 350,
+          "Objective-C": 240,
+          "Gradle": 225,
+          "Bourne Shell": 156,
+          "SVG": 123,
+          "DOS Batch": 76,
+          "Markdown": 42,
+          "C/C++ Header": 8,
+          "ProGuard": 0
+        }
+      },
+      {
+        "name": "affordability-questions-api",
+        "loc": {
+          "JSON": 10771,
+          "TypeScript": 1265,
+          "YAML": 207,
+          "Markdown": 113,
+          "Bourne Shell": 53,
+          "JavaScript": 49
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-03-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 447050,
+          "C#": 26721,
+          "JavaScript": 26351,
+          "JSX": 25011,
+          "TypeScript": 15585,
+          "F#": 4742,
+          "Elm": 3509,
+          "F# Script": 2945,
+          "LESS": 2153,
+          "MSBuild script": 1868,
+          "XML": 850,
+          "Markdown": 826,
+          "YAML": 778,
+          "SVG": 746,
+          "SQL": 700,
+          "Bourne Shell": 453,
+          "EJS": 282,
+          "Sass": 109,
+          "Visual Studio Solution": 96,
+          "Dockerfile": 54,
+          "Python": 49,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "TypeScript": 35888,
+          "JavaScript": 32506,
+          "YAML": 929,
+          "XML": 815,
+          "JSON": 775,
+          "Java": 348,
+          "Objective-C": 238,
+          "Gradle": 219,
+          "Bourne Shell": 156,
+          "SVG": 123,
+          "DOS Batch": 76,
+          "Markdown": 41,
+          "C/C++ Header": 8,
+          "ProGuard": 0
+        }
+      },
+      {
+        "name": "affordability-questions-api",
+        "loc": {
+          "JSON": 10771,
+          "TypeScript": 1265,
+          "YAML": 207,
+          "Markdown": 113,
+          "Bourne Shell": 53,
+          "JavaScript": 49
+        }
+      }
+    ]
+  }
+]
