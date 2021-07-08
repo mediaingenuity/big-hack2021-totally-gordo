@@ -26,7 +26,6 @@ const Heading = styled.h1`
   color: ${theme.cloudyBlue};
   text-shadow: 1px 1px 1px ${theme.indigo30};
 `
-console.log(theme)
 const IndexPage = () => (
   <Layout>
     <Page>
