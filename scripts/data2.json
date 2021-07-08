@@ -1,0 +1,648 @@
+[
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "repos": []
+  },
+  {
+    "date": "2018-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 266,
+          "YAML": 54,
+          "JSON": 19,
+          "SUM": 339
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 1574,
+          "SQL": 164,
+          "Visual Studio Solution": 78,
+          "MSBuild script": 73,
+          "YAML": 44,
+          "Markdown": 30,
+          "JSON": 16,
+          "SUM": 1979
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 373,
+          "SUM": 373
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 579,
+          "Markdown": 123,
+          "JSON": 48,
+          "YAML": 29,
+          "Bourne Shell": 15,
+          "SUM": 794
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 269,
+          "YAML": 54,
+          "JSON": 21,
+          "SUM": 344
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 3940,
+          "SQL": 1042,
+          "YAML": 895,
+          "Python": 398,
+          "MSBuild script": 128,
+          "Visual Studio Solution": 114,
+          "JSON": 49,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 6599
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "SQL": 44,
+          "SUM": 505
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 579,
+          "Markdown": 123,
+          "JSON": 48,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 801
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 477,
+          "SUM": 477
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 28137,
+          "LESS": 5957,
+          "SVG": 3493,
+          "XML": 548,
+          "JSON": 443,
+          "YAML": 356,
+          "Gradle": 146,
+          "Bourne Again Shell": 121,
+          "Markdown": 77,
+          "DOS Batch": 64,
+          "Java": 64,
+          "Bourne Shell": 37,
+          "Objective-C": 33,
+          "ProGuard": 30,
+          "C/C++ Header": 4,
+          "SUM": 39510
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 283,
+          "YAML": 55,
+          "JSON": 22,
+          "SUM": 360
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 3981,
+          "SQL": 1039,
+          "YAML": 861,
+          "Python": 406,
+          "MSBuild script": 129,
+          "Visual Studio Solution": 114,
+          "JSON": 53,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 6616
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "JSON": 230,
+          "SQL": 44,
+          "YAML": 15,
+          "Bourne Shell": 5,
+          "SUM": 755
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 581,
+          "Markdown": 123,
+          "JSON": 72,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 827
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 491,
+          "SUM": 491
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 33890,
+          "LESS": 5832,
+          "XML": 698,
+          "SVG": 645,
+          "YAML": 583,
+          "JSON": 496,
+          "Gradle": 218,
+          "Bourne Shell": 140,
+          "Markdown": 127,
+          "Java": 117,
+          "Objective-C": 77,
+          "DOS Batch": 59,
+          "C/C++ Header": 4,
+          "ProGuard": 0,
+          "SUM": 42886
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 283,
+          "YAML": 55,
+          "JSON": 22,
+          "SUM": 360
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 3592,
+          "SQL": 1039,
+          "YAML": 892,
+          "Python": 416,
+          "MSBuild script": 135,
+          "Visual Studio Solution": 114,
+          "JSON": 57,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 6278
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "JSON": 230,
+          "SQL": 44,
+          "YAML": 15,
+          "Bourne Shell": 5,
+          "SUM": 755
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 581,
+          "Markdown": 123,
+          "JSON": 72,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 827
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 491,
+          "SUM": 491
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 35848,
+          "XML": 717,
+          "JSON": 637,
+          "YAML": 557,
+          "TypeScript": 297,
+          "Gradle": 199,
+          "Markdown": 154,
+          "Bourne Shell": 140,
+          "Java": 109,
+          "SVG": 109,
+          "Objective-C": 81,
+          "DOS Batch": 59,
+          "C/C++ Header": 4,
+          "ProGuard": 0,
+          "SUM": 38911
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 283,
+          "YAML": 55,
+          "JSON": 22,
+          "SUM": 360
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 4517,
+          "SQL": 1021,
+          "YAML": 999,
+          "Python": 416,
+          "MSBuild script": 137,
+          "Visual Studio Solution": 115,
+          "JSON": 100,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 7338
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "JSON": 230,
+          "SQL": 44,
+          "YAML": 15,
+          "Bourne Shell": 5,
+          "SUM": 755
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 581,
+          "Markdown": 123,
+          "JSON": 72,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 827
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 386,
+          "SUM": 386
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 38018,
+          "TypeScript": 8297,
+          "YAML": 746,
+          "JSON": 639,
+          "XML": 622,
+          "Markdown": 338,
+          "Gradle": 196,
+          "Bourne Shell": 157,
+          "Objective-C": 115,
+          "SVG": 109,
+          "Java": 91,
+          "DOS Batch": 59,
+          "C/C++ Header": 4,
+          "ProGuard": 0,
+          "SUM": 49391
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 277,
+          "YAML": 55,
+          "JSON": 22,
+          "SUM": 354
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 4517,
+          "SQL": 1021,
+          "YAML": 999,
+          "Python": 416,
+          "MSBuild script": 128,
+          "Visual Studio Solution": 115,
+          "JSON": 99,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 7328
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "JSON": 230,
+          "SQL": 44,
+          "YAML": 15,
+          "Bourne Shell": 5,
+          "SUM": 755
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 581,
+          "Markdown": 123,
+          "JSON": 72,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 827
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 386,
+          "SUM": 386
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "JavaScript": 34265,
+          "TypeScript": 29002,
+          "YAML": 1070,
+          "XML": 799,
+          "JSON": 773,
+          "Java": 350,
+          "Objective-C": 240,
+          "Gradle": 225,
+          "Bourne Shell": 156,
+          "SVG": 123,
+          "DOS Batch": 76,
+          "Markdown": 42,
+          "C/C++ Header": 8,
+          "ProGuard": 0,
+          "SUM": 67129
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-07-31T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "CreditCards.ScoreBuilder",
+        "loc": {
+          "JSON": 22371,
+          "Markdown": 1689,
+          "JavaScript": 614,
+          "CSS": 28,
+          "HTML": 17,
+          "SVG": 9,
+          "SUM": 24728
+        }
+      },
+      {
+        "name": "SftpLambda",
+        "loc": {
+          "JavaScript": 277,
+          "YAML": 55,
+          "JSON": 22,
+          "SUM": 354
+        }
+      },
+      {
+        "name": "FreeCreditReport.Lambda",
+        "loc": {
+          "C#": 4517,
+          "SQL": 1061,
+          "YAML": 999,
+          "Python": 416,
+          "MSBuild script": 128,
+          "Visual Studio Solution": 115,
+          "JSON": 99,
+          "Markdown": 30,
+          "DOS Batch": 3,
+          "SUM": 7368
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_SanitizeData",
+        "loc": {
+          "Go": 461,
+          "JSON": 230,
+          "SQL": 44,
+          "YAML": 15,
+          "Bourne Shell": 5,
+          "SUM": 755
+        }
+      },
+      {
+        "name": "demographic-segment-service",
+        "loc": {
+          "Python": 581,
+          "Markdown": 123,
+          "JSON": 72,
+          "YAML": 29,
+          "Bourne Shell": 22,
+          "SUM": 827
+        }
+      },
+      {
+        "name": "LambdaS3ToDb_BulkInsertToDb",
+        "loc": {
+          "Go": 386,
+          "SUM": 386
+        }
+      },
+      {
+        "name": "TotallyMoney.HackSessions",
+        "loc": {
+          "JavaScript": 330,
+          "Markdown": 37,
+          "SUM": 367
+        }
+      },
+      {
+        "name": "Account.NativeApp",
+        "loc": {
+          "TypeScript": 46837,
+          "JavaScript": 30425,
+          "XML": 1284,
+          "YAML": 952,
+          "JSON": 873,
+          "Java": 462,
+          "Objective-C": 271,
+          "Gradle": 227,
+          "Bourne Shell": 156,
+          "DOS Batch": 76,
+          "C/C++ Header": 55,
+          "Markdown": 41,
+          "ProGuard": 0,
+          "SUM": 81659
+        }
+      }
+    ]
+  }
+]

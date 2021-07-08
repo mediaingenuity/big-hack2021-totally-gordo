@@ -1,0 +1,4315 @@
+[
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17339,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 941,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23300
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 32872,
+          "JSX": 8964,
+          "LESS": 8301,
+          "SVG": 971,
+          "JSON": 170,
+          "Bourne Again Shell": 147,
+          "HTML": 110,
+          "Markdown": 63,
+          "YAML": 38,
+          "SUM": 51636
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 374,
+          "JSON": 315,
+          "Markdown": 21,
+          "SUM": 710
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2143,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 446,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41460
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49961,
+          "CSS": 15964,
+          "C#": 2298,
+          "Razor": 999,
+          "MSBuild script": 816,
+          "XSD": 676,
+          "SVG": 517,
+          "XML": 315,
+          "Visual Studio Solution": 118,
+          "HTML": 102,
+          "Markdown": 16,
+          "ASP.NET": 1,
+          "SUM": 71783
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 8232,
+          "MSBuild script": 1210,
+          "XML": 771,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 238,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "SUM": 12071
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23255,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73488
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 25229,
+          "SQL": 3487,
+          "MSBuild script": 2995,
+          "XML": 1633,
+          "Web Services Description": 275,
+          "Visual Studio Solution": 149,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 33893
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25818,
+          "HTML": 4796,
+          "Sass": 4145,
+          "JavaScript": 901,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 204,
+          "Markdown": 51,
+          "JSON": 35,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 36734
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "Sass": 6795,
+          "JavaScript": 406,
+          "CoffeeScript": 273,
+          "HTML": 233,
+          "Markdown": 52,
+          "JSON": 35,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 33631
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "Sass": 3025,
+          "JavaScript": 378,
+          "CoffeeScript": 249,
+          "HTML": 233,
+          "Markdown": 52,
+          "JSON": 35,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 29799
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 13759,
+          "JSX": 10673,
+          "JavaScript": 8735,
+          "LESS": 7099,
+          "SVG": 1942,
+          "Bourne Shell": 106,
+          "YAML": 78,
+          "Markdown": 48,
+          "Dockerfile": 9,
+          "SUM": 42449
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5842,
+          "JavaScript": 1554,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 557,
+          "XSD": 351,
+          "HTML": 256,
+          "XML": 143,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 20424
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 6280,
+          "SQL": 1264,
+          "MSBuild script": 687,
+          "XML": 571,
+          "F#": 254,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "DOS Batch": 3,
+          "SUM": 9161
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "HTML": 12777,
+          "LESS": 11247,
+          "SVG": 3680,
+          "JavaScript": 312,
+          "Markdown": 40,
+          "JSON": 34,
+          "Bourne Shell": 13,
+          "SUM": 28103
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3076,
+          "JavaScript": 943,
+          "XSD": 676,
+          "MSBuild script": 628,
+          "HTML": 350,
+          "XML": 287,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6017
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "CSS": 2118,
+          "JavaScript": 1995,
+          "HTML": 1633,
+          "C#": 1347,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 533,
+          "XML": 276,
+          "Razor": 45,
+          "Visual Studio Solution": 39,
+          "Markdown": 14,
+          "SUM": 11987
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 31768,
+          "CSS": 24626,
+          "JSON": 14677,
+          "JavaScript": 6496,
+          "MSBuild script": 2678,
+          "XML": 2147,
+          "Web Services Description": 1313,
+          "XSD": 1014,
+          "HTML": 471,
+          "Cucumber": 248,
+          "Markdown": 219,
+          "Visual Studio Solution": 130,
+          "Bourne Shell": 12,
+          "DOS Batch": 3,
+          "ASP.NET": 1,
+          "SUM": 85803
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 25670,
+          "C#": 4030,
+          "HTML": 406,
+          "JSON": 285,
+          "Razor": 176,
+          "MSBuild script": 118,
+          "Visual Studio Solution": 107,
+          "XML": 102,
+          "CSS": 63,
+          "Markdown": 54,
+          "Bourne Shell": 12,
+          "SUM": 31023
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 96979,
+          "C#": 51887,
+          "JavaScript": 25617,
+          "JSX": 16000,
+          "F#": 7723,
+          "LESS": 6412,
+          "Web Services Description": 4496,
+          "SVG": 3194,
+          "XML": 2580,
+          "F# Script": 2558,
+          "Elm": 2380,
+          "MSBuild script": 2260,
+          "SQL": 545,
+          "YAML": 535,
+          "Cucumber": 455,
+          "Bourne Shell": 221,
+          "Markdown": 154,
+          "Sass": 123,
+          "Bourne Again Shell": 121,
+          "Gradle": 117,
+          "Visual Studio Solution": 102,
+          "DOS Batch": 74,
+          "Java": 54,
+          "Objective-C": 33,
+          "ProGuard": 30,
+          "Dockerfile": 25,
+          "XSD": 18,
+          "HTML": 13,
+          "C/C++ Header": 4,
+          "SUM": 224710
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 19536,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1794,
+          "XML": 1264,
+          "XSD": 1014,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 108,
+          "ASP.NET": 1,
+          "SUM": 58457
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 747,
+          "MSBuild script": 243,
+          "SQL": 81,
+          "XML": 69,
+          "Visual Studio Solution": 32,
+          "SUM": 1172
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 6943,
+          "SQL": 208,
+          "JSON": 128,
+          "MSBuild script": 110,
+          "YAML": 100,
+          "Bourne Shell": 76,
+          "Visual Studio Solution": 56,
+          "Dockerfile": 9,
+          "SUM": 7630
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 9458,
+          "JSX": 6244,
+          "JavaScript": 3779,
+          "LESS": 2678,
+          "HTML": 169,
+          "SVG": 148,
+          "YAML": 36,
+          "Bourne Shell": 10,
+          "Markdown": 2,
+          "SUM": 22524
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1281,
+          "JSON": 230,
+          "YAML": 124,
+          "MSBuild script": 121,
+          "Visual Studio Solution": 111,
+          "SQL": 86,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2048
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 8138,
+          "JavaScript": 2201,
+          "HTML": 1690,
+          "LESS": 805,
+          "CSS": 772,
+          "SVG": 184,
+          "YAML": 56,
+          "Bourne Shell": 49,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 13904
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "JSON": 8102,
+          "LESS": 793,
+          "JavaScript": 525,
+          "HTML": 464,
+          "SVG": 184,
+          "YAML": 56,
+          "Bourne Shell": 49,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 10182
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JSON": 8294,
+          "JavaScript": 1126,
+          "LESS": 1011,
+          "HTML": 763,
+          "SVG": 151,
+          "YAML": 56,
+          "Bourne Shell": 49,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 11459
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 2012,
+          "JSON": 206,
+          "YAML": 111,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 68,
+          "Bourne Shell": 56,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 2548
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 359,
+          "CSV": 139,
+          "DOS Batch": 95,
+          "SUM": 593
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1258,
+          "JSON": 314,
+          "SVG": 292,
+          "Razor": 173,
+          "Visual Studio Solution": 91,
+          "YAML": 54,
+          "MSBuild script": 53,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19583
+        }
+      }
+    ]
+  },
+  {
+    "date": "2018-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17339,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 941,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23300
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 32461,
+          "JSX": 8242,
+          "LESS": 7065,
+          "SVG": 1260,
+          "JSON": 302,
+          "Bourne Again Shell": 147,
+          "HTML": 110,
+          "Markdown": 63,
+          "YAML": 16,
+          "SUM": 49666
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 374,
+          "JSON": 315,
+          "Markdown": 21,
+          "SUM": 710
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49932,
+          "CSS": 15964,
+          "C#": 2298,
+          "Razor": 994,
+          "MSBuild script": 817,
+          "XSD": 676,
+          "SVG": 517,
+          "XML": 315,
+          "Visual Studio Solution": 118,
+          "HTML": 102,
+          "Markdown": 16,
+          "ASP.NET": 1,
+          "SUM": 71750
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 9895,
+          "MSBuild script": 1228,
+          "XML": 790,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 238,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 13772
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 24919,
+          "SQL": 3756,
+          "MSBuild script": 3028,
+          "XML": 1635,
+          "Web Services Description": 275,
+          "Visual Studio Solution": 149,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 33887
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25818,
+          "JSON": 9120,
+          "HTML": 4804,
+          "Sass": 4250,
+          "JavaScript": 964,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 197,
+          "Markdown": 51,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 45988
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9122,
+          "Sass": 6867,
+          "JavaScript": 451,
+          "HTML": 233,
+          "CoffeeScript": 221,
+          "Markdown": 52,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 42783
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9550,
+          "Sass": 3097,
+          "JavaScript": 423,
+          "HTML": 232,
+          "CoffeeScript": 208,
+          "Markdown": 52,
+          "YAML": 30,
+          "Ruby": 7,
+          "SUM": 39389
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 13657,
+          "JSX": 10925,
+          "JavaScript": 9012,
+          "LESS": 7542,
+          "SVG": 2035,
+          "Bourne Shell": 237,
+          "Markdown": 61,
+          "YAML": 41,
+          "Dockerfile": 9,
+          "SUM": 43519
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5842,
+          "JavaScript": 1554,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 557,
+          "XSD": 351,
+          "HTML": 256,
+          "XML": 143,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 20424
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 6874,
+          "SQL": 1264,
+          "MSBuild script": 697,
+          "XML": 571,
+          "F#": 254,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "DOS Batch": 3,
+          "SUM": 9765
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "HTML": 19644,
+          "LESS": 14472,
+          "JSON": 8041,
+          "SVG": 4528,
+          "JavaScript": 4197,
+          "PHP": 687,
+          "Markdown": 47,
+          "Bourne Shell": 18,
+          "SUM": 51634
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3370,
+          "JavaScript": 943,
+          "XSD": 676,
+          "MSBuild script": 641,
+          "HTML": 350,
+          "XML": 291,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6328
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "CSS": 2118,
+          "JavaScript": 2003,
+          "HTML": 1641,
+          "C#": 1347,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 533,
+          "XML": 276,
+          "Razor": 45,
+          "Visual Studio Solution": 39,
+          "Markdown": 14,
+          "SUM": 12003
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 30916,
+          "CSS": 24626,
+          "JSON": 15317,
+          "JavaScript": 6496,
+          "MSBuild script": 2576,
+          "XML": 1382,
+          "XSD": 1014,
+          "Web Services Description": 568,
+          "HTML": 471,
+          "Cucumber": 248,
+          "Markdown": 219,
+          "Visual Studio Solution": 130,
+          "Bourne Shell": 12,
+          "DOS Batch": 3,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 83980
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26125,
+          "C#": 8706,
+          "MSBuild script": 1493,
+          "XSD": 676,
+          "HTML": 519,
+          "XML": 510,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 38358
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 89638,
+          "C#": 56710,
+          "JavaScript": 27485,
+          "JSX": 19554,
+          "F#": 9811,
+          "LESS": 6475,
+          "Web Services Description": 4496,
+          "SVG": 3489,
+          "F# Script": 3085,
+          "XML": 2939,
+          "Elm": 2672,
+          "MSBuild script": 2126,
+          "YAML": 845,
+          "SQL": 614,
+          "Cucumber": 455,
+          "Sass": 366,
+          "Markdown": 271,
+          "Bourne Shell": 256,
+          "EJS": 179,
+          "Gradle": 126,
+          "Bourne Again Shell": 121,
+          "Visual Studio Solution": 102,
+          "DOS Batch": 74,
+          "Java": 58,
+          "Dockerfile": 36,
+          "Objective-C": 33,
+          "ProGuard": 30,
+          "XSD": 18,
+          "TOML": 16,
+          "HTML": 13,
+          "C/C++ Header": 4,
+          "SUM": 232097
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 19837,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1770,
+          "XSD": 1014,
+          "XML": 717,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 108,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58188
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 819,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1261
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 7296,
+          "XML": 4219,
+          "JSON": 311,
+          "JavaScript": 210,
+          "SQL": 210,
+          "YAML": 136,
+          "MSBuild script": 121,
+          "Bourne Shell": 71,
+          "Visual Studio Solution": 61,
+          "Markdown": 11,
+          "Dockerfile": 9,
+          "SUM": 12655
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 9459,
+          "JSX": 5725,
+          "JavaScript": 3779,
+          "LESS": 2563,
+          "HTML": 169,
+          "SVG": 148,
+          "YAML": 36,
+          "Bourne Shell": 10,
+          "Markdown": 2,
+          "SUM": 21891
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1298,
+          "JSON": 230,
+          "MSBuild script": 121,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2077
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11184,
+          "HTML": 3561,
+          "LESS": 1687,
+          "JavaScript": 1609,
+          "SVG": 301,
+          "YAML": 198,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 18652
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "LESS": 1986,
+          "JavaScript": 1131,
+          "HTML": 566,
+          "SVG": 325,
+          "YAML": 201,
+          "JSON": 89,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 4370
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3282,
+          "LESS": 1746,
+          "HTML": 932,
+          "SVG": 311,
+          "YAML": 198,
+          "JSON": 101,
+          "XML": 90,
+          "Mustache": 63,
+          "Bourne Shell": 54,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 6786
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 2758,
+          "JSON": 350,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 77,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 3575
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 539,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "Bourne Shell": 18,
+          "PowerShell": 11,
+          "SUM": 807
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1166,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1384
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17338,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 943,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23301
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 49493,
+          "LESS": 9297,
+          "JSX": 8629,
+          "SVG": 1617,
+          "JSON": 408,
+          "Bourne Again Shell": 145,
+          "HTML": 110,
+          "Markdown": 69,
+          "YAML": 16,
+          "SUM": 69784
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 412,
+          "JSON": 327,
+          "Markdown": 21,
+          "SUM": 760
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49941,
+          "CSS": 15964,
+          "C#": 2298,
+          "Razor": 985,
+          "MSBuild script": 817,
+          "XSD": 676,
+          "SVG": 517,
+          "XML": 314,
+          "Visual Studio Solution": 118,
+          "HTML": 102,
+          "Markdown": 16,
+          "ASP.NET": 1,
+          "SUM": 71749
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 10325,
+          "MSBuild script": 1233,
+          "XML": 789,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 238,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 14206
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 28388,
+          "SQL": 4083,
+          "MSBuild script": 3242,
+          "XML": 1633,
+          "Web Services Description": 275,
+          "Visual Studio Solution": 172,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 37918
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5343,
+          "Sass": 4578,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "Markdown": 51,
+          "YAML": 31,
+          "Ruby": 7,
+          "SUM": 47399
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6867,
+          "JavaScript": 520,
+          "CoffeeScript": 234,
+          "HTML": 233,
+          "Markdown": 52,
+          "YAML": 31,
+          "Ruby": 7,
+          "SUM": 42867
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3097,
+          "JavaScript": 462,
+          "HTML": 232,
+          "CoffeeScript": 221,
+          "YAML": 64,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39476
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 14044,
+          "JSX": 11535,
+          "JavaScript": 9281,
+          "LESS": 7868,
+          "SVG": 2163,
+          "Bourne Shell": 237,
+          "Markdown": 61,
+          "YAML": 41,
+          "Dockerfile": 9,
+          "SUM": 45239
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5842,
+          "JavaScript": 1554,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 557,
+          "XSD": 351,
+          "HTML": 256,
+          "XML": 143,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 20424
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 7412,
+          "SQL": 1264,
+          "MSBuild script": 708,
+          "XML": 583,
+          "F#": 254,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "DOS Batch": 3,
+          "SUM": 10326
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 76100,
+          "HTML": 44237,
+          "SVG": 30616,
+          "JavaScript": 26807,
+          "JSON": 20338,
+          "LESS": 18012,
+          "Sass": 5448,
+          "XML": 4251,
+          "CSV": 1872,
+          "Markdown": 986,
+          "Bourne Shell": 18,
+          "SUM": 228685
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3405,
+          "JavaScript": 943,
+          "XSD": 676,
+          "MSBuild script": 645,
+          "HTML": 350,
+          "XML": 291,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6367
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "CSS": 2118,
+          "JavaScript": 2005,
+          "HTML": 1663,
+          "C#": 1347,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 538,
+          "XML": 276,
+          "Razor": 45,
+          "Visual Studio Solution": 39,
+          "Markdown": 14,
+          "SUM": 12032
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 34173,
+          "CSS": 24626,
+          "JSON": 16831,
+          "JavaScript": 6496,
+          "MSBuild script": 2944,
+          "XML": 1534,
+          "CSV": 1296,
+          "XSD": 1014,
+          "Web Services Description": 568,
+          "HTML": 471,
+          "Cucumber": 332,
+          "Markdown": 219,
+          "Visual Studio Solution": 150,
+          "Bourne Shell": 12,
+          "DOS Batch": 3,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 90671
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 8902,
+          "MSBuild script": 1500,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 511,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 38824
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 417722,
+          "JavaScript": 39922,
+          "C#": 31752,
+          "JSX": 25908,
+          "F#": 11083,
+          "LESS": 6612,
+          "SVG": 3512,
+          "XML": 3122,
+          "Elm": 2746,
+          "F# Script": 2554,
+          "MSBuild script": 1932,
+          "YAML": 755,
+          "SQL": 635,
+          "Sass": 366,
+          "Markdown": 323,
+          "Bourne Shell": 305,
+          "Cucumber": 247,
+          "EJS": 155,
+          "Gradle": 132,
+          "Bourne Again Shell": 121,
+          "Visual Studio Solution": 96,
+          "DOS Batch": 74,
+          "Java": 62,
+          "Dockerfile": 38,
+          "Objective-C": 33,
+          "ProGuard": 30,
+          "TOML": 16,
+          "HTML": 13,
+          "C/C++ Header": 4,
+          "SUM": 550270
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 19907,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1777,
+          "XSD": 1014,
+          "XML": 719,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 108,
+          "DOS Batch": 11,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58278
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 819,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1261
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 7317,
+          "XML": 4301,
+          "JSON": 305,
+          "SQL": 230,
+          "JavaScript": 210,
+          "YAML": 114,
+          "Bourne Shell": 83,
+          "MSBuild script": 64,
+          "Visual Studio Solution": 61,
+          "Dockerfile": 11,
+          "Markdown": 11,
+          "SUM": 12707
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 12511,
+          "JSX": 5742,
+          "JavaScript": 3659,
+          "LESS": 2797,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 36,
+          "Bourne Shell": 10,
+          "Markdown": 2,
+          "SUM": 25097
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1705,
+          "JSON": 233,
+          "MSBuild script": 123,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2489
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11184,
+          "HTML": 3560,
+          "JavaScript": 2352,
+          "LESS": 1687,
+          "SVG": 301,
+          "YAML": 198,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 19394
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "LESS": 2170,
+          "HTML": 1744,
+          "JavaScript": 1185,
+          "SVG": 325,
+          "YAML": 204,
+          "JSON": 92,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 5792
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3577,
+          "LESS": 1795,
+          "HTML": 1015,
+          "SVG": 311,
+          "YAML": 201,
+          "JSON": 103,
+          "XML": 90,
+          "Mustache": 63,
+          "Bourne Shell": 54,
+          "Dockerfile": 8,
+          "Markdown": 1,
+          "SUM": 7218
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 2881,
+          "JSON": 350,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 77,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 3698
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 539,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 817
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17339,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 942,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23301
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 47052,
+          "JSON": 14887,
+          "LESS": 8771,
+          "JSX": 7496,
+          "SVG": 1617,
+          "Bourne Again Shell": 200,
+          "HTML": 110,
+          "Markdown": 69,
+          "YAML": 16,
+          "SUM": 80218
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 424,
+          "JSON": 327,
+          "Markdown": 21,
+          "SUM": 772
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49896,
+          "CSS": 15961,
+          "HTML": 716,
+          "SVG": 517,
+          "Bourne Shell": 43,
+          "YAML": 22,
+          "Markdown": 17,
+          "SUM": 67172
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 8677,
+          "MSBuild script": 1179,
+          "XML": 804,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 253,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 12534
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 31647,
+          "SQL": 4270,
+          "MSBuild script": 3609,
+          "XML": 1347,
+          "Visual Studio Solution": 186,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 41184
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5341,
+          "Sass": 4594,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "YAML": 54,
+          "Markdown": 51,
+          "Ruby": 7,
+          "SUM": 47436
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6880,
+          "JavaScript": 514,
+          "HTML": 238,
+          "CoffeeScript": 229,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 42897
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3109,
+          "JavaScript": 445,
+          "HTML": 232,
+          "CoffeeScript": 215,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39455
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 21229,
+          "JSX": 11220,
+          "JavaScript": 9018,
+          "LESS": 7917,
+          "SVG": 2223,
+          "Bourne Shell": 242,
+          "Markdown": 61,
+          "YAML": 41,
+          "Dockerfile": 9,
+          "SUM": 51960
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5806,
+          "JavaScript": 1554,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 563,
+          "XSD": 351,
+          "HTML": 256,
+          "XML": 149,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 20400
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 8096,
+          "SQL": 1264,
+          "XML": 773,
+          "MSBuild script": 763,
+          "F#": 256,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "DOS Batch": 3,
+          "SUM": 11257
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 76953,
+          "HTML": 69206,
+          "SVG": 66246,
+          "LESS": 31416,
+          "JavaScript": 28512,
+          "JSON": 25553,
+          "Sass": 5448,
+          "XML": 2955,
+          "CSV": 1872,
+          "Markdown": 993,
+          "PHP": 32,
+          "Bourne Shell": 30,
+          "SUM": 309216
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3660,
+          "JavaScript": 943,
+          "XSD": 676,
+          "MSBuild script": 674,
+          "HTML": 350,
+          "XML": 307,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6667
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "CSS": 2118,
+          "JavaScript": 2002,
+          "HTML": 1619,
+          "C#": 1347,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 537,
+          "XML": 276,
+          "Razor": 45,
+          "Visual Studio Solution": 39,
+          "Markdown": 14,
+          "SUM": 11984
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 34122,
+          "CSS": 24626,
+          "JSON": 17027,
+          "JavaScript": 6496,
+          "MSBuild script": 2946,
+          "XML": 1418,
+          "CSV": 1296,
+          "XSD": 1014,
+          "Web Services Description": 568,
+          "HTML": 471,
+          "Cucumber": 332,
+          "Markdown": 219,
+          "Visual Studio Solution": 150,
+          "DOS Batch": 40,
+          "Bourne Shell": 12,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 90739
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 9156,
+          "MSBuild script": 1649,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 414,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "DOS Batch": 37,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 39167
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 418590,
+          "C#": 29063,
+          "JSX": 27689,
+          "JavaScript": 21012,
+          "F#": 8922,
+          "LESS": 5610,
+          "F# Script": 2964,
+          "Elm": 2120,
+          "MSBuild script": 1903,
+          "TypeScript": 1398,
+          "SVG": 1380,
+          "XML": 1225,
+          "YAML": 665,
+          "SQL": 635,
+          "Markdown": 467,
+          "Bourne Shell": 353,
+          "Cucumber": 247,
+          "EJS": 186,
+          "Visual Studio Solution": 96,
+          "Sass": 81,
+          "Dockerfile": 32,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10,
+          "SUM": 524677
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 19912,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1774,
+          "XSD": 1014,
+          "XML": 719,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 108,
+          "DOS Batch": 11,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58280
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 819,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1261
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 10642,
+          "XML": 7468,
+          "JSON": 331,
+          "SQL": 242,
+          "JavaScript": 210,
+          "YAML": 123,
+          "Bourne Shell": 108,
+          "MSBuild script": 106,
+          "Visual Studio Solution": 82,
+          "Markdown": 49,
+          "Dockerfile": 18,
+          "SUM": 19379
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 16081,
+          "JSX": 6016,
+          "JavaScript": 3969,
+          "LESS": 2907,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 95,
+          "Markdown": 20,
+          "Bourne Shell": 17,
+          "SUM": 29445
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1850,
+          "JSON": 296,
+          "MSBuild script": 126,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2700
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11299,
+          "HTML": 4300,
+          "JavaScript": 2263,
+          "LESS": 1702,
+          "SVG": 301,
+          "YAML": 201,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 20176
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "LESS": 2288,
+          "HTML": 1744,
+          "JavaScript": 1088,
+          "SVG": 325,
+          "YAML": 204,
+          "JSON": 93,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 5812
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3538,
+          "LESS": 1799,
+          "HTML": 1033,
+          "SVG": 311,
+          "YAML": 201,
+          "JSON": 104,
+          "XML": 90,
+          "Mustache": 75,
+          "Bourne Shell": 54,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 7212
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 3182,
+          "JSON": 365,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 78,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 4015
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 539,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 817
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17339,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 942,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23301
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 47176,
+          "JSON": 15461,
+          "JSX": 6979,
+          "LESS": 5147,
+          "Bourne Again Shell": 211,
+          "SVG": 171,
+          "HTML": 110,
+          "Markdown": 69,
+          "YAML": 16,
+          "SUM": 75340
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 401,
+          "JSON": 246,
+          "Markdown": 28,
+          "SUM": 675
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49898,
+          "CSS": 15961,
+          "HTML": 717,
+          "SVG": 517,
+          "YAML": 48,
+          "Bourne Shell": 43,
+          "Markdown": 17,
+          "XML": 11,
+          "SUM": 67212
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 7911,
+          "MSBuild script": 1138,
+          "XML": 775,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 253,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 11698
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 36196,
+          "SQL": 4270,
+          "MSBuild script": 4086,
+          "XML": 1606,
+          "Visual Studio Solution": 229,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 46512
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5365,
+          "Sass": 4594,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "YAML": 54,
+          "Markdown": 51,
+          "Ruby": 7,
+          "SUM": 47460
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6886,
+          "JavaScript": 523,
+          "HTML": 486,
+          "CoffeeScript": 256,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 43187
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3109,
+          "HTML": 487,
+          "JavaScript": 445,
+          "CoffeeScript": 215,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39710
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 14791,
+          "JavaScript": 8911,
+          "JSX": 6788,
+          "Bourne Shell": 242,
+          "Markdown": 61,
+          "YAML": 19,
+          "SVG": 14,
+          "Dockerfile": 9,
+          "SUM": 30835
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5807,
+          "JavaScript": 1554,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 563,
+          "XSD": 351,
+          "HTML": 256,
+          "XML": 149,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 20401
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 31336,
+          "Web Services Description": 4663,
+          "SQL": 1264,
+          "XML": 1236,
+          "MSBuild script": 849,
+          "F#": 256,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "XSD": 18,
+          "DOS Batch": 3,
+          "SUM": 39727
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 77078,
+          "HTML": 73431,
+          "SVG": 68402,
+          "LESS": 31422,
+          "JavaScript": 29664,
+          "JSON": 29373,
+          "Sass": 6370,
+          "XML": 2988,
+          "CSV": 1925,
+          "Markdown": 993,
+          "PHP": 915,
+          "Bourne Shell": 30,
+          "SUM": 322591
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3728,
+          "JavaScript": 943,
+          "MSBuild script": 676,
+          "XSD": 676,
+          "HTML": 355,
+          "XML": 307,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6742
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "JavaScript": 30646,
+          "CSS": 14731,
+          "HTML": 1625,
+          "C#": 1345,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 630,
+          "XML": 368,
+          "Markdown": 170,
+          "TypeScript": 121,
+          "Razor": 45,
+          "Visual Studio Solution": 39,
+          "SUM": 53707
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 35656,
+          "CSS": 24626,
+          "JSON": 17027,
+          "JavaScript": 6496,
+          "MSBuild script": 3174,
+          "XML": 1471,
+          "CSV": 1296,
+          "XSD": 1014,
+          "Web Services Description": 568,
+          "HTML": 471,
+          "Cucumber": 332,
+          "Markdown": 219,
+          "Visual Studio Solution": 158,
+          "DOS Batch": 42,
+          "Bourne Shell": 12,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 92564
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 9275,
+          "MSBuild script": 1655,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 415,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "DOS Batch": 37,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 39293
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 429611,
+          "C#": 26766,
+          "JSX": 26311,
+          "JavaScript": 22412,
+          "F#": 5278,
+          "LESS": 2928,
+          "Elm": 2584,
+          "F# Script": 2557,
+          "TypeScript": 2268,
+          "MSBuild script": 1851,
+          "XML": 1203,
+          "SVG": 752,
+          "YAML": 727,
+          "SQL": 671,
+          "Markdown": 637,
+          "Bourne Shell": 446,
+          "EJS": 186,
+          "Visual Studio Solution": 96,
+          "Sass": 81,
+          "Dockerfile": 32,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10,
+          "SUM": 527436
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 20010,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1820,
+          "XSD": 1014,
+          "XML": 664,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 82,
+          "DOS Batch": 21,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58353
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 820,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1262
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 11543,
+          "XML": 7519,
+          "JSON": 331,
+          "SQL": 263,
+          "F#": 216,
+          "JavaScript": 210,
+          "YAML": 147,
+          "Bourne Shell": 112,
+          "MSBuild script": 106,
+          "Visual Studio Solution": 88,
+          "Markdown": 62,
+          "Dockerfile": 18,
+          "SUM": 20615
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 14228,
+          "JSX": 6488,
+          "JavaScript": 3986,
+          "LESS": 2752,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 83,
+          "Markdown": 20,
+          "Bourne Shell": 17,
+          "SUM": 27914
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1758,
+          "JSON": 293,
+          "MSBuild script": 126,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2605
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11299,
+          "HTML": 4300,
+          "JavaScript": 2263,
+          "LESS": 1702,
+          "SVG": 301,
+          "YAML": 201,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 20176
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "LESS": 2288,
+          "HTML": 1737,
+          "JavaScript": 1088,
+          "SVG": 325,
+          "YAML": 206,
+          "JSON": 93,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 5807
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3538,
+          "LESS": 1816,
+          "HTML": 1037,
+          "SVG": 321,
+          "YAML": 201,
+          "JSON": 104,
+          "XML": 90,
+          "Mustache": 75,
+          "Bourne Shell": 54,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 7243
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 3182,
+          "JSON": 365,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 78,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 4015
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 539,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 817
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17349,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 942,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23311
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 47270,
+          "JSON": 15520,
+          "JSX": 7158,
+          "LESS": 5147,
+          "Bourne Again Shell": 211,
+          "SVG": 171,
+          "HTML": 110,
+          "Markdown": 69,
+          "YAML": 16,
+          "SUM": 75672
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 399,
+          "JSON": 246,
+          "Markdown": 28,
+          "SUM": 673
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49909,
+          "CSS": 15961,
+          "HTML": 798,
+          "SVG": 517,
+          "YAML": 48,
+          "Bourne Shell": 43,
+          "Markdown": 17,
+          "XML": 11,
+          "SUM": 67304
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 7911,
+          "MSBuild script": 1138,
+          "XML": 775,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 253,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 11698
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 38693,
+          "MSBuild script": 4289,
+          "SQL": 4270,
+          "XML": 2158,
+          "Visual Studio Solution": 236,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 49771
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5433,
+          "Sass": 4631,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "YAML": 54,
+          "Markdown": 51,
+          "Ruby": 7,
+          "SUM": 47565
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6886,
+          "JavaScript": 523,
+          "HTML": 486,
+          "CoffeeScript": 263,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 43194
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3109,
+          "HTML": 487,
+          "JavaScript": 445,
+          "CoffeeScript": 215,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39710
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 18582,
+          "JavaScript": 9273,
+          "JSX": 7894,
+          "Bourne Shell": 241,
+          "Markdown": 61,
+          "SVG": 32,
+          "YAML": 19,
+          "Dockerfile": 9,
+          "SUM": 36111
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5807,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 562,
+          "XSD": 351,
+          "HTML": 254,
+          "XML": 147,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 18842
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 31294,
+          "Web Services Description": 4663,
+          "SQL": 1264,
+          "XML": 1232,
+          "MSBuild script": 851,
+          "F#": 256,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "XSD": 18,
+          "DOS Batch": 3,
+          "SUM": 39683
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 77078,
+          "HTML": 74127,
+          "SVG": 68402,
+          "LESS": 31640,
+          "JavaScript": 29664,
+          "JSON": 29373,
+          "Sass": 6370,
+          "XML": 2988,
+          "CSV": 1925,
+          "Markdown": 993,
+          "PHP": 915,
+          "Bourne Shell": 30,
+          "SUM": 323505
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3802,
+          "JavaScript": 943,
+          "MSBuild script": 691,
+          "XSD": 676,
+          "HTML": 355,
+          "XML": 311,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6835
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "JavaScript": 30649,
+          "CSS": 14731,
+          "HTML": 1645,
+          "C#": 1345,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 630,
+          "XML": 368,
+          "Markdown": 170,
+          "TypeScript": 121,
+          "Razor": 45,
+          "Visual Studio Solution": 42,
+          "SUM": 53733
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 33171,
+          "CSS": 24626,
+          "JSON": 17027,
+          "JavaScript": 6496,
+          "MSBuild script": 3097,
+          "CSV": 1296,
+          "XML": 1021,
+          "XSD": 1014,
+          "HTML": 471,
+          "Cucumber": 332,
+          "Markdown": 219,
+          "Visual Studio Solution": 132,
+          "DOS Batch": 42,
+          "Bourne Shell": 12,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 88958
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 10192,
+          "MSBuild script": 1708,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 421,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "DOS Batch": 37,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 40269
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 436330,
+          "JSX": 26504,
+          "JavaScript": 26142,
+          "C#": 25999,
+          "F#": 5354,
+          "TypeScript": 4065,
+          "Elm": 2974,
+          "F# Script": 2842,
+          "LESS": 2153,
+          "MSBuild script": 1884,
+          "XML": 850,
+          "YAML": 788,
+          "SVG": 743,
+          "Markdown": 742,
+          "SQL": 691,
+          "Bourne Shell": 446,
+          "EJS": 207,
+          "Visual Studio Solution": 96,
+          "Sass": 94,
+          "Python": 49,
+          "Dockerfile": 32,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10,
+          "SUM": 539024
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 20067,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1820,
+          "XSD": 1014,
+          "XML": 664,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 82,
+          "DOS Batch": 21,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58410
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 820,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1262
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 14117,
+          "XML": 8056,
+          "JSON": 333,
+          "SQL": 277,
+          "F#": 216,
+          "JavaScript": 210,
+          "YAML": 135,
+          "MSBuild script": 129,
+          "Bourne Shell": 122,
+          "Visual Studio Solution": 109,
+          "Markdown": 62,
+          "Dockerfile": 20,
+          "DOS Batch": 7,
+          "SUM": 23793
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 16184,
+          "JSX": 6491,
+          "JavaScript": 4008,
+          "LESS": 2753,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 153,
+          "Bourne Shell": 69,
+          "Markdown": 47,
+          "Dockerfile": 12,
+          "SUM": 30057
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1758,
+          "JSON": 293,
+          "MSBuild script": 126,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2605
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11299,
+          "HTML": 4099,
+          "JavaScript": 2641,
+          "LESS": 1735,
+          "SVG": 301,
+          "YAML": 201,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 20386
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "LESS": 2294,
+          "HTML": 1785,
+          "JavaScript": 1088,
+          "SVG": 325,
+          "YAML": 206,
+          "JSON": 93,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 5861
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3538,
+          "LESS": 1816,
+          "HTML": 1029,
+          "SVG": 321,
+          "YAML": 203,
+          "JSON": 104,
+          "XML": 90,
+          "Mustache": 75,
+          "Bourne Shell": 54,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 7237
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 3182,
+          "JSON": 365,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 78,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 4015
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 539,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 817
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17349,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 942,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23311
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 47426,
+          "JSON": 16764,
+          "JSX": 7478,
+          "LESS": 5140,
+          "Bourne Again Shell": 211,
+          "SVG": 183,
+          "HTML": 110,
+          "Markdown": 69,
+          "YAML": 16,
+          "SUM": 77397
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 383,
+          "JSON": 165,
+          "Markdown": 28,
+          "SUM": 576
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49909,
+          "CSS": 15961,
+          "HTML": 799,
+          "SVG": 517,
+          "YAML": 48,
+          "Bourne Shell": 43,
+          "Markdown": 17,
+          "XML": 11,
+          "SUM": 67305
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 7911,
+          "MSBuild script": 1138,
+          "XML": 775,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 253,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 11698
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 41531,
+          "MSBuild script": 4525,
+          "SQL": 4312,
+          "XML": 2257,
+          "Visual Studio Solution": 250,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 53000
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5433,
+          "Sass": 4631,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "YAML": 54,
+          "Markdown": 51,
+          "Ruby": 7,
+          "SUM": 47565
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6886,
+          "JavaScript": 523,
+          "HTML": 486,
+          "CoffeeScript": 263,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 43194
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3109,
+          "HTML": 487,
+          "JavaScript": 445,
+          "CoffeeScript": 215,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39710
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JSON": 21449,
+          "JSX": 9980,
+          "JavaScript": 9235,
+          "Bourne Shell": 241,
+          "Markdown": 66,
+          "SVG": 32,
+          "YAML": 19,
+          "Dockerfile": 9,
+          "SUM": 41031
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5343,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 553,
+          "XSD": 351,
+          "HTML": 253,
+          "XML": 144,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 18365
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 29022,
+          "Web Services Description": 4663,
+          "SQL": 1264,
+          "XML": 1232,
+          "MSBuild script": 810,
+          "F#": 256,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "XSD": 18,
+          "DOS Batch": 3,
+          "SUM": 37370
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 77078,
+          "HTML": 74127,
+          "SVG": 68402,
+          "LESS": 31640,
+          "JavaScript": 29664,
+          "JSON": 29373,
+          "Sass": 6370,
+          "XML": 2988,
+          "CSV": 1925,
+          "Markdown": 993,
+          "PHP": 915,
+          "Bourne Shell": 30,
+          "SUM": 323505
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3839,
+          "JavaScript": 943,
+          "MSBuild script": 694,
+          "XSD": 676,
+          "HTML": 362,
+          "XML": 312,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6883
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "JavaScript": 30649,
+          "CSS": 14731,
+          "HTML": 1645,
+          "C#": 1345,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 630,
+          "XML": 368,
+          "Markdown": 170,
+          "TypeScript": 121,
+          "Razor": 45,
+          "Visual Studio Solution": 42,
+          "SUM": 53733
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "C#": 33697,
+          "CSS": 24626,
+          "JSON": 17027,
+          "JavaScript": 6496,
+          "MSBuild script": 3170,
+          "CSV": 1296,
+          "XML": 1055,
+          "XSD": 1014,
+          "HTML": 471,
+          "Cucumber": 332,
+          "Markdown": 219,
+          "Visual Studio Solution": 140,
+          "DOS Batch": 42,
+          "Bourne Shell": 12,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 89599
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 11255,
+          "MSBuild script": 1710,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 421,
+          "Visual Studio Solution": 198,
+          "CSS": 63,
+          "Markdown": 54,
+          "DOS Batch": 37,
+          "Bourne Shell": 12,
+          "JSON": 2,
+          "SUM": 41334
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 446956,
+          "JSX": 26577,
+          "C#": 26556,
+          "JavaScript": 25932,
+          "TypeScript": 13128,
+          "F#": 4744,
+          "Elm": 3202,
+          "F# Script": 3075,
+          "LESS": 2153,
+          "MSBuild script": 1896,
+          "XML": 845,
+          "Markdown": 779,
+          "YAML": 773,
+          "SVG": 746,
+          "SQL": 700,
+          "Bourne Shell": 442,
+          "EJS": 210,
+          "Sass": 109,
+          "Visual Studio Solution": 96,
+          "Python": 49,
+          "Dockerfile": 32,
+          "TOML": 16,
+          "HTML": 13,
+          "DOS Batch": 10,
+          "SUM": 559039
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 20071,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1820,
+          "XSD": 1014,
+          "XML": 664,
+          "HTML": 471,
+          "Markdown": 152,
+          "Visual Studio Solution": 82,
+          "DOS Batch": 21,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58414
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 820,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1262
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 14787,
+          "XML": 7276,
+          "SQL": 277,
+          "F#": 226,
+          "JSON": 218,
+          "YAML": 141,
+          "Markdown": 120,
+          "Visual Studio Solution": 109,
+          "MSBuild script": 107,
+          "Bourne Shell": 97,
+          "Dockerfile": 22,
+          "SUM": 23380
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 16184,
+          "JSX": 6491,
+          "JavaScript": 4008,
+          "LESS": 2753,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 153,
+          "Bourne Shell": 69,
+          "Markdown": 53,
+          "Dockerfile": 12,
+          "SUM": 30063
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1758,
+          "JSON": 293,
+          "MSBuild script": 126,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2605
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 11299,
+          "HTML": 4236,
+          "JavaScript": 3043,
+          "LESS": 1856,
+          "SVG": 301,
+          "YAML": 201,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 21046
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "JSON": 13488,
+          "LESS": 2490,
+          "HTML": 1984,
+          "JavaScript": 1246,
+          "SVG": 339,
+          "YAML": 206,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 19823
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3687,
+          "LESS": 1934,
+          "HTML": 1188,
+          "SVG": 321,
+          "YAML": 203,
+          "JSON": 104,
+          "XML": 90,
+          "Mustache": 75,
+          "Bourne Shell": 54,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 7663
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 3182,
+          "JSON": 365,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 78,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 4015
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 573,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 851
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-07-31T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "TotallyMoney.Remortgages",
+        "loc": {
+          "C#": 17349,
+          "XSD": 2953,
+          "Web Services Description": 1203,
+          "MSBuild script": 942,
+          "XML": 723,
+          "Cucumber": 105,
+          "Visual Studio Solution": 32,
+          "Markdown": 3,
+          "ASP.NET": 1,
+          "SUM": 23311
+        }
+      },
+      {
+        "name": "CreditCards.WebApp",
+        "loc": {
+          "JavaScript": 50462,
+          "JSON": 16422,
+          "JSX": 7712,
+          "LESS": 5140,
+          "Bourne Again Shell": 232,
+          "SVG": 183,
+          "HTML": 110,
+          "Markdown": 109,
+          "YAML": 16,
+          "SUM": 80386
+        }
+      },
+      {
+        "name": "basin.server",
+        "loc": {
+          "JavaScript": 383,
+          "JSON": 165,
+          "Markdown": 28,
+          "SUM": 576
+        }
+      },
+      {
+        "name": "TotallyMoney.Mortgages.Admin",
+        "loc": {
+          "JavaScript": 36844,
+          "C#": 2177,
+          "MSBuild script": 802,
+          "CSS": 686,
+          "Razor": 460,
+          "XML": 405,
+          "Visual Studio Solution": 133,
+          "ASP.NET": 1,
+          "SUM": 41508
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue.Admin",
+        "loc": {
+          "JavaScript": 49918,
+          "CSS": 15961,
+          "HTML": 815,
+          "SVG": 517,
+          "YAML": 48,
+          "Bourne Shell": 43,
+          "Markdown": 17,
+          "XML": 11,
+          "SUM": 67330
+        }
+      },
+      {
+        "name": "CreditCards.Consumer",
+        "loc": {
+          "C#": 7911,
+          "MSBuild script": 1138,
+          "XML": 775,
+          "XSD": 376,
+          "JSON": 311,
+          "SVG": 288,
+          "JavaScript": 283,
+          "F#": 253,
+          "TypeScript": 114,
+          "Visual Studio Solution": 103,
+          "HTML": 70,
+          "Markdown": 39,
+          "DOS Batch": 18,
+          "Cucumber": 12,
+          "SQL": 5,
+          "CSS": 1,
+          "PowerShell": 1,
+          "SUM": 11698
+        }
+      },
+      {
+        "name": "Marbles.Card",
+        "loc": {
+          "SVG": 25790,
+          "C#": 23242,
+          "JavaScript": 12297,
+          "XML": 3162,
+          "CSS": 2775,
+          "LESS": 2186,
+          "Razor": 2006,
+          "MSBuild script": 1641,
+          "Visual Studio Solution": 128,
+          "Cucumber": 109,
+          "PowerShell": 109,
+          "JSON": 24,
+          "Markdown": 5,
+          "ASP.NET": 1,
+          "SUM": 73475
+        }
+      },
+      {
+        "name": "Loans.Api",
+        "loc": {
+          "C#": 38619,
+          "MSBuild script": 4539,
+          "XML": 2328,
+          "Visual Studio Solution": 265,
+          "JSON": 45,
+          "DOS Batch": 29,
+          "F# Script": 29,
+          "Markdown": 17,
+          "Bourne Shell": 4,
+          "ASP.NET": 1,
+          "SUM": 45876
+        }
+      },
+      {
+        "name": "Marbles.Card.Static",
+        "loc": {
+          "SVG": 25848,
+          "JSON": 9566,
+          "HTML": 5433,
+          "Sass": 4631,
+          "JavaScript": 1011,
+          "CSS": 492,
+          "XML": 255,
+          "CoffeeScript": 217,
+          "YAML": 54,
+          "Markdown": 51,
+          "Ruby": 7,
+          "SUM": 47565
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Welcome",
+        "loc": {
+          "SVG": 25800,
+          "JSON": 9123,
+          "Sass": 6886,
+          "JavaScript": 523,
+          "HTML": 486,
+          "CoffeeScript": 263,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 43194
+        }
+      },
+      {
+        "name": "Marbles.Card.Static.Aggregators.Applynow",
+        "loc": {
+          "SVG": 25790,
+          "JSON": 9551,
+          "Sass": 3109,
+          "HTML": 487,
+          "JavaScript": 445,
+          "CoffeeScript": 215,
+          "YAML": 54,
+          "Markdown": 52,
+          "Ruby": 7,
+          "SUM": 39710
+        }
+      },
+      {
+        "name": "Marbles.KeepAliveD",
+        "loc": {
+          "Bourne Shell": 336,
+          "Markdown": 12,
+          "SUM": 348
+        }
+      },
+      {
+        "name": "Loans.WebApp",
+        "loc": {
+          "JavaScript": 597878,
+          "JSON": 23110,
+          "JSX": 10191,
+          "Bourne Shell": 241,
+          "Markdown": 72,
+          "YAML": 43,
+          "SVG": 32,
+          "Dockerfile": 9,
+          "SUM": 631576
+        }
+      },
+      {
+        "name": "Loans.Data.Api",
+        "loc": {
+          "CSS": 8371,
+          "C#": 5342,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "MSBuild script": 566,
+          "XSD": 351,
+          "HTML": 253,
+          "XML": 180,
+          "Visual Studio Solution": 37,
+          "Markdown": 2,
+          "SUM": 18413
+        }
+      },
+      {
+        "name": "Loans.Consumer",
+        "loc": {
+          "C#": 29022,
+          "Web Services Description": 4663,
+          "SQL": 1264,
+          "XML": 1232,
+          "MSBuild script": 810,
+          "F#": 256,
+          "Visual Studio Solution": 57,
+          "F# Script": 25,
+          "Markdown": 20,
+          "XSD": 18,
+          "DOS Batch": 3,
+          "SUM": 37370
+        }
+      },
+      {
+        "name": "TotallyMoney.StaticSite",
+        "loc": {
+          "CSS": 77078,
+          "HTML": 74127,
+          "SVG": 68402,
+          "LESS": 31640,
+          "JavaScript": 29664,
+          "JSON": 29373,
+          "Sass": 6370,
+          "XML": 2988,
+          "CSV": 1925,
+          "Markdown": 1000,
+          "PHP": 915,
+          "Bourne Shell": 30,
+          "SUM": 323512
+        }
+      },
+      {
+        "name": "Loans.Click.Api",
+        "loc": {
+          "C#": 3839,
+          "JavaScript": 943,
+          "MSBuild script": 694,
+          "XSD": 676,
+          "HTML": 362,
+          "XML": 312,
+          "Visual Studio Solution": 39,
+          "CSS": 16,
+          "Markdown": 2,
+          "SUM": 6883
+        }
+      },
+      {
+        "name": "Loans.Cms",
+        "loc": {
+          "JavaScript": 30656,
+          "CSS": 14731,
+          "HTML": 1645,
+          "C#": 1345,
+          "Sass": 1256,
+          "LESS": 1247,
+          "SVG": 808,
+          "XSD": 676,
+          "MSBuild script": 630,
+          "XML": 368,
+          "Markdown": 170,
+          "TypeScript": 121,
+          "Razor": 45,
+          "Visual Studio Solution": 42,
+          "SUM": 53740
+        }
+      },
+      {
+        "name": "CreditCards.Api2",
+        "loc": {
+          "CSS": 24626,
+          "C#": 18514,
+          "JSON": 17027,
+          "JavaScript": 6496,
+          "MSBuild script": 3152,
+          "CSV": 1296,
+          "XML": 1055,
+          "XSD": 1014,
+          "HTML": 471,
+          "Cucumber": 332,
+          "YAML": 281,
+          "Markdown": 219,
+          "Visual Studio Solution": 140,
+          "Bourne Shell": 61,
+          "DOS Batch": 42,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 74728
+        }
+      },
+      {
+        "name": "Click.Api",
+        "loc": {
+          "JavaScript": 26371,
+          "C#": 11229,
+          "MSBuild script": 1710,
+          "XSD": 676,
+          "HTML": 535,
+          "XML": 421,
+          "YAML": 246,
+          "Visual Studio Solution": 198,
+          "Bourne Shell": 65,
+          "CSS": 63,
+          "Markdown": 54,
+          "DOS Batch": 37,
+          "JSON": 2,
+          "SUM": 41607
+        }
+      },
+      {
+        "name": "Account",
+        "loc": {
+          "JSON": 446892,
+          "JavaScript": 26627,
+          "JSX": 26185,
+          "C#": 25949,
+          "TypeScript": 21281,
+          "F#": 3996,
+          "Elm": 3786,
+          "F# Script": 3030,
+          "MSBuild script": 1876,
+          "LESS": 1529,
+          "Markdown": 853,
+          "XML": 810,
+          "YAML": 793,
+          "SVG": 755,
+          "SQL": 719,
+          "Bourne Shell": 429,
+          "EJS": 126,
+          "Sass": 109,
+          "Visual Studio Solution": 96,
+          "Python": 49,
+          "Dockerfile": 46,
+          "TOML": 27,
+          "HTML": 13,
+          "DOS Batch": 10,
+          "SUM": 565986
+        }
+      },
+      {
+        "name": "CreditCards.ProductCatalogue",
+        "loc": {
+          "CSS": 24626,
+          "C#": 20132,
+          "JavaScript": 6496,
+          "JSON": 2995,
+          "MSBuild script": 1820,
+          "XSD": 1014,
+          "XML": 664,
+          "HTML": 471,
+          "YAML": 191,
+          "Markdown": 152,
+          "Visual Studio Solution": 82,
+          "Bourne Shell": 49,
+          "DOS Batch": 21,
+          "ASP.NET": 1,
+          "PowerShell": 1,
+          "SUM": 58715
+        }
+      },
+      {
+        "name": "Loans.Slack.Alerts",
+        "loc": {
+          "C#": 820,
+          "MSBuild script": 251,
+          "SQL": 81,
+          "XML": 78,
+          "Visual Studio Solution": 32,
+          "SUM": 1262
+        }
+      },
+      {
+        "name": "CallCredit.Api",
+        "loc": {
+          "C#": 14743,
+          "XML": 7276,
+          "SQL": 297,
+          "F#": 225,
+          "JSON": 218,
+          "YAML": 141,
+          "Markdown": 120,
+          "Visual Studio Solution": 109,
+          "MSBuild script": 107,
+          "Bourne Shell": 97,
+          "Dockerfile": 22,
+          "SUM": 23355
+        }
+      },
+      {
+        "name": "Mortgages.WebApp",
+        "loc": {
+          "JSON": 16184,
+          "JSX": 6491,
+          "JavaScript": 4008,
+          "LESS": 2753,
+          "SVG": 171,
+          "HTML": 169,
+          "YAML": 153,
+          "Bourne Shell": 69,
+          "Markdown": 53,
+          "Dockerfile": 12,
+          "SUM": 30063
+        }
+      },
+      {
+        "name": "Mortgages.Consumer",
+        "loc": {
+          "C#": 1758,
+          "JSON": 293,
+          "MSBuild script": 126,
+          "YAML": 115,
+          "Visual Studio Solution": 111,
+          "SQL": 107,
+          "Bourne Shell": 71,
+          "Markdown": 21,
+          "Dockerfile": 3,
+          "SUM": 2605
+        }
+      },
+      {
+        "name": "Fluid.Static",
+        "loc": {
+          "JSON": 16892,
+          "HTML": 4360,
+          "JavaScript": 3103,
+          "LESS": 1839,
+          "SVG": 301,
+          "YAML": 201,
+          "Bourne Shell": 54,
+          "CSS": 40,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 26806
+        }
+      },
+      {
+        "name": "Fluid.Homepage",
+        "loc": {
+          "JSON": 16619,
+          "LESS": 2494,
+          "HTML": 1963,
+          "JavaScript": 1272,
+          "SVG": 339,
+          "YAML": 206,
+          "Bourne Shell": 54,
+          "XML": 9,
+          "Dockerfile": 6,
+          "Markdown": 1,
+          "SUM": 22963
+        }
+      },
+      {
+        "name": "Fluid.Form",
+        "loc": {
+          "JavaScript": 3780,
+          "LESS": 1871,
+          "HTML": 1175,
+          "SVG": 321,
+          "YAML": 203,
+          "JSON": 104,
+          "XML": 90,
+          "Mustache": 75,
+          "Bourne Shell": 54,
+          "Dockerfile": 6,
+          "Markdown": 2,
+          "SUM": 7681
+        }
+      },
+      {
+        "name": "Fluid.Api",
+        "loc": {
+          "C#": 3182,
+          "JSON": 365,
+          "YAML": 233,
+          "Visual Studio Solution": 90,
+          "MSBuild script": 78,
+          "Bourne Shell": 62,
+          "Dockerfile": 3,
+          "Markdown": 2,
+          "SUM": 4015
+        }
+      },
+      {
+        "name": "devops",
+        "loc": {
+          "Python": 783,
+          "CSV": 139,
+          "DOS Batch": 100,
+          "PowerShell": 21,
+          "Bourne Shell": 18,
+          "SUM": 1061
+        }
+      },
+      {
+        "name": "Fluid.FakeIssuer",
+        "loc": {
+          "JavaScript": 9932,
+          "CSS": 7349,
+          "C#": 1468,
+          "JSON": 347,
+          "SVG": 292,
+          "Razor": 177,
+          "Visual Studio Solution": 91,
+          "YAML": 56,
+          "MSBuild script": 54,
+          "Bourne Shell": 35,
+          "Markdown": 18,
+          "Dockerfile": 14,
+          "SUM": 19833
+        }
+      },
+      {
+        "name": "Fluid.Test",
+        "loc": {
+          "JavaScript": 1201,
+          "JSON": 125,
+          "YAML": 82,
+          "Bourne Shell": 9,
+          "Dockerfile": 2,
+          "SUM": 1419
+        }
+      }
+    ]
+  }
+]
