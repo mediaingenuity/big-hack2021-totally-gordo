@@ -31,7 +31,7 @@ const Heading = styled.h1`
 const IndexPage = () => (
   <Layout>
     <Page>
-      <RepoHistory />
+      {/*<RepoHistory />*/}
     </Page>
   </Layout>
 )

@@ -1,0 +1,1533 @@
+[
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1620,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2102
+        }
+      }
+    ]
+  },
+  {
+    "date": "2018-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "F#": 1387,
+          "XML": 337,
+          "F# Script": 327,
+          "YAML": 259,
+          "Bourne Shell": 104,
+          "JSON": 38,
+          "Markdown": 38,
+          "SQL": 26,
+          "Visual Studio Solution": 21,
+          "DOS Batch": 7,
+          "SUM": 2544
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 10012,
+          "JavaScript": 517,
+          "CSS": 445,
+          "HTML": 180,
+          "Markdown": 93,
+          "Bourne Shell": 5,
+          "SUM": 11252
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "HTML": 362,
+          "JavaScript": 121,
+          "JSON": 55,
+          "SUM": 538
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 1,
+          "SUM": 1
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 327749,
+          "F#": 2354,
+          "XML": 358,
+          "Bourne Shell": 97,
+          "YAML": 85,
+          "F# Script": 48,
+          "Visual Studio Solution": 30,
+          "DOS Batch": 6,
+          "Markdown": 2,
+          "SUM": 330729
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "F#": 400,
+          "XML": 383,
+          "F# Script": 205,
+          "YAML": 82,
+          "Bourne Shell": 78,
+          "Markdown": 12,
+          "JSON": 6,
+          "SUM": 1166
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "F#": 1387,
+          "XML": 410,
+          "YAML": 259,
+          "Bourne Shell": 104,
+          "JSON": 38,
+          "Markdown": 38,
+          "SQL": 26,
+          "Visual Studio Solution": 21,
+          "F# Script": 16,
+          "DOS Batch": 7,
+          "SUM": 2306
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 10013,
+          "JavaScript": 529,
+          "CSS": 486,
+          "HTML": 249,
+          "Markdown": 93,
+          "Bourne Shell": 10,
+          "SUM": 11380
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "HTML": 362,
+          "JavaScript": 121,
+          "JSON": 55,
+          "SUM": 538
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 36,
+          "SUM": 36
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 426934,
+          "F#": 4055,
+          "XML": 402,
+          "YAML": 206,
+          "Bourne Shell": 120,
+          "Visual Studio Solution": 82,
+          "Markdown": 32,
+          "Dockerfile": 5,
+          "SUM": 431836
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "F#": 486,
+          "XML": 441,
+          "F# Script": 197,
+          "YAML": 139,
+          "Bourne Shell": 69,
+          "JSON": 7,
+          "SUM": 1339
+        }
+      },
+      {
+        "name": "Account.ConfigBackup",
+        "loc": {
+          "XML": 364,
+          "F# Script": 338,
+          "F#": 103,
+          "YAML": 93,
+          "Bourne Shell": 69,
+          "JSON": 11,
+          "SUM": 978
+        }
+      },
+      {
+        "name": "fsharp-lambda-scaffold",
+        "loc": {
+          "Bourne Shell": 85,
+          "Bourne Again Shell": 69,
+          "YAML": 41,
+          "Markdown": 34,
+          "F#": 20,
+          "awk": 15,
+          "XML": 11,
+          "SUM": 275
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.Lambda",
+        "loc": {
+          "C#": 2979,
+          "YAML": 352,
+          "MSBuild script": 85,
+          "Visual Studio Solution": 78,
+          "Markdown": 27,
+          "SUM": 3521
+        }
+      },
+      {
+        "name": "SignupForm",
+        "loc": {
+          "JavaScript": 9152,
+          "YAML": 211,
+          "SVG": 137,
+          "JSON": 94,
+          "Bourne Shell": 87,
+          "Markdown": 64,
+          "SUM": 9745
+        }
+      },
+      {
+        "name": "TotallyMoney.DataRetriever.Lambda",
+        "loc": {
+          "C#": 4084,
+          "YAML": 394,
+          "Visual Studio Solution": 114,
+          "MSBuild script": 85,
+          "SUM": 4677
+        }
+      },
+      {
+        "name": "QueueShift",
+        "loc": {
+          "F#": 552,
+          "XML": 395,
+          "YAML": 366,
+          "Bourne Shell": 69,
+          "Markdown": 18,
+          "JSON": 13,
+          "SUM": 1413
+        }
+      },
+      {
+        "name": "TotallyMoney.UI",
+        "loc": {
+          "JavaScript": 5242,
+          "JSX": 2219,
+          "SVG": 1159,
+          "Markdown": 277,
+          "JSON": 41,
+          "HTML": 4,
+          "SUM": 8942
+        }
+      },
+      {
+        "name": "CRM.UpdateEmailAddress",
+        "loc": {
+          "XML": 390,
+          "F#": 237,
+          "YAML": 188,
+          "Bourne Shell": 69,
+          "JSON": 12,
+          "SUM": 896
+        }
+      },
+      {
+        "name": "CRM.EventAdapter",
+        "loc": {
+          "YAML": 487,
+          "XML": 379,
+          "F#": 306,
+          "Markdown": 76,
+          "Bourne Shell": 73,
+          "JSON": 13,
+          "SUM": 1334
+        }
+      },
+      {
+        "name": "TotallyMoney.Intranet.Lambda",
+        "loc": {
+          "C#": 2673,
+          "YAML": 458,
+          "MSBuild script": 77,
+          "Visual Studio Solution": 66,
+          "SUM": 3274
+        }
+      },
+      {
+        "name": "Judas.Silver",
+        "loc": {
+          "C#": 4056,
+          "XML": 3915,
+          "MSBuild script": 257,
+          "Visual Studio Solution": 23,
+          "Markdown": 11,
+          "SUM": 8262
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.ViewDefinitions",
+        "loc": {
+          "C#": 7927,
+          "YAML": 107,
+          "MSBuild script": 75,
+          "Visual Studio Solution": 64,
+          "Markdown": 14,
+          "XML": 6,
+          "SUM": 8193
+        }
+      },
+      {
+        "name": "Launchpad",
+        "loc": {
+          "F#": 4106,
+          "XML": 414,
+          "YAML": 289,
+          "Bourne Shell": 83,
+          "F# Script": 31,
+          "Visual Studio Solution": 21,
+          "JSON": 13,
+          "SUM": 4957
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "JSON": 4360,
+          "F#": 1879,
+          "XML": 498,
+          "YAML": 327,
+          "Bourne Shell": 106,
+          "SQL": 41,
+          "Markdown": 38,
+          "Visual Studio Solution": 21,
+          "F# Script": 16,
+          "SUM": 7286
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 13405,
+          "LESS": 905,
+          "JavaScript": 592,
+          "HTML": 352,
+          "Markdown": 93,
+          "Bourne Shell": 10,
+          "SUM": 15357
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "JSON": 20937,
+          "JavaScript": 10431,
+          "Markdown": 5425,
+          "JSX": 987,
+          "HTML": 385,
+          "CSS": 57,
+          "YAML": 42,
+          "Bourne Again Shell": 20,
+          "SUM": 38284
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 36,
+          "SUM": 36
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 841319,
+          "F#": 5872,
+          "XML": 514,
+          "YAML": 202,
+          "Bourne Shell": 148,
+          "Visual Studio Solution": 114,
+          "Markdown": 31,
+          "SUM": 848200
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "XML": 457,
+          "F#": 429,
+          "YAML": 276,
+          "F# Script": 197,
+          "Markdown": 39,
+          "JSON": 14,
+          "SUM": 1412
+        }
+      },
+      {
+        "name": "Account.ConfigBackup",
+        "loc": {
+          "XML": 364,
+          "F# Script": 338,
+          "F#": 103,
+          "YAML": 93,
+          "Bourne Shell": 69,
+          "JSON": 11,
+          "SUM": 978
+        }
+      },
+      {
+        "name": "fsharp-lambda-scaffold",
+        "loc": {
+          "Bourne Shell": 91,
+          "YAML": 41,
+          "Markdown": 35,
+          "F#": 20,
+          "awk": 15,
+          "XML": 11,
+          "SUM": 213
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.Lambda",
+        "loc": {
+          "C#": 3462,
+          "YAML": 485,
+          "MSBuild script": 85,
+          "Visual Studio Solution": 76,
+          "Markdown": 27,
+          "SUM": 4135
+        }
+      },
+      {
+        "name": "SignupForm",
+        "loc": {
+          "JavaScript": 8780,
+          "YAML": 238,
+          "SVG": 137,
+          "JSON": 95,
+          "Bourne Shell": 86,
+          "Markdown": 64,
+          "SUM": 9400
+        }
+      },
+      {
+        "name": "TotallyMoney.DataRetriever.Lambda",
+        "loc": {
+          "JavaScript": 16873,
+          "C#": 8518,
+          "YAML": 731,
+          "Razor": 404,
+          "Visual Studio Solution": 134,
+          "MSBuild script": 123,
+          "CSS": 107,
+          "JSON": 27,
+          "XML": 15,
+          "SUM": 26932
+        }
+      },
+      {
+        "name": "QueueShift",
+        "loc": {
+          "F#": 556,
+          "XML": 478,
+          "YAML": 398,
+          "Markdown": 18,
+          "JSON": 14,
+          "SUM": 1464
+        }
+      },
+      {
+        "name": "TotallyMoney.UI",
+        "loc": {
+          "JavaScript": 6629,
+          "Markdown": 1233,
+          "SVG": 1131,
+          "JSX": 871,
+          "JSON": 73,
+          "YAML": 43,
+          "HTML": 23,
+          "SUM": 10003
+        }
+      },
+      {
+        "name": "CRM.UpdateEmailAddress",
+        "loc": {
+          "XML": 390,
+          "F#": 237,
+          "YAML": 194,
+          "JSON": 13,
+          "SUM": 834
+        }
+      },
+      {
+        "name": "CRM.EventAdapter",
+        "loc": {
+          "XML": 407,
+          "F#": 387,
+          "YAML": 223,
+          "Markdown": 41,
+          "JSON": 14,
+          "SUM": 1072
+        }
+      },
+      {
+        "name": "TotallyMoney.Intranet.Lambda",
+        "loc": {
+          "C#": 2622,
+          "YAML": 530,
+          "MSBuild script": 76,
+          "Visual Studio Solution": 65,
+          "SUM": 3293
+        }
+      },
+      {
+        "name": "Judas.Silver",
+        "loc": {
+          "C#": 4442,
+          "XML": 4098,
+          "MSBuild script": 272,
+          "Visual Studio Solution": 23,
+          "Markdown": 11,
+          "SUM": 8846
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.ViewDefinitions",
+        "loc": {
+          "C#": 13321,
+          "YAML": 113,
+          "MSBuild script": 90,
+          "Visual Studio Solution": 75,
+          "Markdown": 26,
+          "Bourne Shell": 2,
+          "DOS Batch": 1,
+          "SUM": 13628
+        }
+      },
+      {
+        "name": "Launchpad",
+        "loc": {
+          "F#": 6110,
+          "XML": 457,
+          "YAML": 368,
+          "Markdown": 224,
+          "JSON": 39,
+          "F# Script": 30,
+          "Visual Studio Solution": 21,
+          "SUM": 7249
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-06-30T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "F#": 1943,
+          "XML": 498,
+          "YAML": 370,
+          "Bourne Shell": 96,
+          "JSON": 58,
+          "SQL": 42,
+          "Markdown": 38,
+          "Visual Studio Solution": 21,
+          "F# Script": 16,
+          "SUM": 3082
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 13405,
+          "LESS": 903,
+          "JavaScript": 592,
+          "HTML": 435,
+          "Markdown": 93,
+          "Bourne Shell": 10,
+          "SUM": 15438
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "JSON": 20937,
+          "JavaScript": 10446,
+          "Markdown": 5425,
+          "JSX": 987,
+          "HTML": 385,
+          "CSS": 57,
+          "YAML": 42,
+          "Bourne Again Shell": 20,
+          "SUM": 38299
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 36,
+          "SUM": 36
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 841319,
+          "F#": 5881,
+          "XML": 519,
+          "YAML": 202,
+          "Bourne Shell": 148,
+          "Visual Studio Solution": 114,
+          "Markdown": 31,
+          "SUM": 848214
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "F#": 442,
+          "YAML": 218,
+          "Markdown": 39,
+          "XML": 29,
+          "JSON": 15,
+          "SUM": 743
+        }
+      },
+      {
+        "name": "Account.ConfigBackup",
+        "loc": {
+          "F#": 103,
+          "YAML": 94,
+          "F# Script": 70,
+          "Bourne Shell": 69,
+          "XML": 13,
+          "JSON": 12,
+          "SUM": 361
+        }
+      },
+      {
+        "name": "fsharp-lambda-scaffold",
+        "loc": {
+          "Bourne Shell": 93,
+          "YAML": 47,
+          "Markdown": 38,
+          "JSON": 31,
+          "F#": 22,
+          "awk": 15,
+          "XML": 11,
+          "SUM": 257
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.Lambda",
+        "loc": {
+          "C#": 3689,
+          "YAML": 434,
+          "MSBuild script": 86,
+          "Visual Studio Solution": 75,
+          "Markdown": 27,
+          "SUM": 4311
+        }
+      },
+      {
+        "name": "SignupForm",
+        "loc": {
+          "JavaScript": 9450,
+          "JSX": 252,
+          "YAML": 238,
+          "SVG": 137,
+          "JSON": 95,
+          "Bourne Shell": 86,
+          "Markdown": 64,
+          "SUM": 10322
+        }
+      },
+      {
+        "name": "TotallyMoney.DataRetriever.Lambda",
+        "loc": {
+          "JavaScript": 16832,
+          "C#": 8731,
+          "YAML": 476,
+          "Razor": 404,
+          "Visual Studio Solution": 130,
+          "MSBuild script": 121,
+          "CSS": 107,
+          "JSON": 27,
+          "XML": 15,
+          "SUM": 26843
+        }
+      },
+      {
+        "name": "QueueShift",
+        "loc": {
+          "F#": 556,
+          "YAML": 459,
+          "XML": 32,
+          "Markdown": 18,
+          "JSON": 15,
+          "SUM": 1080
+        }
+      },
+      {
+        "name": "TotallyMoney.UI",
+        "loc": {
+          "JavaScript": 6813,
+          "Markdown": 1449,
+          "TypeScript": 1201,
+          "SVG": 1131,
+          "JSX": 871,
+          "JSON": 127,
+          "YAML": 43,
+          "HTML": 23,
+          "SUM": 11658
+        }
+      },
+      {
+        "name": "CRM.UpdateEmailAddress",
+        "loc": {
+          "F#": 240,
+          "YAML": 199,
+          "XML": 27,
+          "JSON": 14,
+          "SUM": 480
+        }
+      },
+      {
+        "name": "CRM.EventAdapter",
+        "loc": {
+          "F#": 394,
+          "YAML": 194,
+          "Markdown": 41,
+          "XML": 28,
+          "JSON": 16,
+          "SUM": 673
+        }
+      },
+      {
+        "name": "TotallyMoney.Intranet.Lambda",
+        "loc": {
+          "C#": 2640,
+          "YAML": 530,
+          "MSBuild script": 76,
+          "Visual Studio Solution": 65,
+          "SUM": 3311
+        }
+      },
+      {
+        "name": "Judas.Silver",
+        "loc": {
+          "C#": 4442,
+          "XML": 4098,
+          "MSBuild script": 272,
+          "Visual Studio Solution": 23,
+          "Markdown": 11,
+          "SUM": 8846
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.ViewDefinitions",
+        "loc": {
+          "C#": 17435,
+          "YAML": 113,
+          "MSBuild script": 90,
+          "Visual Studio Solution": 75,
+          "Markdown": 26,
+          "Bourne Shell": 2,
+          "DOS Batch": 1,
+          "SUM": 17742
+        }
+      },
+      {
+        "name": "Launchpad",
+        "loc": {
+          "JSON": 9338,
+          "F#": 7060,
+          "YAML": 368,
+          "Markdown": 262,
+          "XML": 79,
+          "JavaScript": 57,
+          "Visual Studio Solution": 21,
+          "SUM": 17185
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "F#": 1943,
+          "XML": 498,
+          "YAML": 370,
+          "Bourne Shell": 96,
+          "JSON": 58,
+          "SQL": 42,
+          "Markdown": 38,
+          "Visual Studio Solution": 21,
+          "F# Script": 16,
+          "SUM": 3082
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 13405,
+          "LESS": 903,
+          "JavaScript": 592,
+          "HTML": 435,
+          "Markdown": 93,
+          "Bourne Shell": 10,
+          "SUM": 15438
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "JSON": 20937,
+          "JavaScript": 10446,
+          "Markdown": 5425,
+          "JSX": 987,
+          "HTML": 385,
+          "CSS": 57,
+          "YAML": 42,
+          "Bourne Again Shell": 20,
+          "SUM": 38299
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 36,
+          "SUM": 36
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 841319,
+          "F#": 5881,
+          "XML": 519,
+          "YAML": 202,
+          "Bourne Shell": 148,
+          "Visual Studio Solution": 114,
+          "Markdown": 31,
+          "SUM": 848214
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "F#": 560,
+          "YAML": 274,
+          "Markdown": 39,
+          "XML": 29,
+          "JSON": 15,
+          "Bourne Shell": 12,
+          "SUM": 929
+        }
+      },
+      {
+        "name": "Account.ConfigBackup",
+        "loc": {
+          "F#": 103,
+          "YAML": 94,
+          "F# Script": 70,
+          "Bourne Shell": 69,
+          "XML": 13,
+          "JSON": 12,
+          "SUM": 361
+        }
+      },
+      {
+        "name": "fsharp-lambda-scaffold",
+        "loc": {
+          "Bourne Shell": 113,
+          "YAML": 58,
+          "Markdown": 40,
+          "JSON": 31,
+          "F#": 22,
+          "awk": 15,
+          "XML": 11,
+          "SUM": 290
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.Lambda",
+        "loc": {
+          "C#": 4316,
+          "YAML": 633,
+          "MSBuild script": 85,
+          "Visual Studio Solution": 81,
+          "Markdown": 27,
+          "SUM": 5142
+        }
+      },
+      {
+        "name": "SignupForm",
+        "loc": {
+          "JSON": 25921,
+          "JavaScript": 9334,
+          "JSX": 257,
+          "YAML": 239,
+          "SVG": 137,
+          "Bourne Shell": 86,
+          "Markdown": 64,
+          "SUM": 36038
+        }
+      },
+      {
+        "name": "TotallyMoney.DataRetriever.Lambda",
+        "loc": {
+          "JavaScript": 16832,
+          "C#": 8869,
+          "YAML": 476,
+          "Razor": 404,
+          "Visual Studio Solution": 130,
+          "MSBuild script": 115,
+          "CSS": 107,
+          "JSON": 27,
+          "XML": 15,
+          "SUM": 26975
+        }
+      },
+      {
+        "name": "QueueShift",
+        "loc": {
+          "F#": 582,
+          "YAML": 515,
+          "XML": 32,
+          "Markdown": 18,
+          "JSON": 16,
+          "Bourne Shell": 12,
+          "SUM": 1175
+        }
+      },
+      {
+        "name": "TotallyMoney.UI",
+        "loc": {
+          "JavaScript": 7012,
+          "Markdown": 1495,
+          "TypeScript": 1366,
+          "SVG": 1131,
+          "JSX": 871,
+          "JSON": 127,
+          "YAML": 45,
+          "HTML": 23,
+          "SUM": 12070
+        }
+      },
+      {
+        "name": "CRM.UpdateEmailAddress",
+        "loc": {
+          "F#": 240,
+          "YAML": 199,
+          "XML": 27,
+          "JSON": 14,
+          "SUM": 480
+        }
+      },
+      {
+        "name": "CRM.EventAdapter",
+        "loc": {
+          "F#": 425,
+          "YAML": 204,
+          "Markdown": 41,
+          "XML": 28,
+          "JSON": 16,
+          "SUM": 714
+        }
+      },
+      {
+        "name": "TotallyMoney.Intranet.Lambda",
+        "loc": {
+          "C#": 2769,
+          "YAML": 530,
+          "MSBuild script": 76,
+          "Visual Studio Solution": 65,
+          "SUM": 3440
+        }
+      },
+      {
+        "name": "Judas.Silver",
+        "loc": {
+          "C#": 4442,
+          "XML": 4098,
+          "MSBuild script": 272,
+          "Visual Studio Solution": 23,
+          "Markdown": 11,
+          "SUM": 8846
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.ViewDefinitions",
+        "loc": {
+          "C#": 17384,
+          "YAML": 113,
+          "MSBuild script": 90,
+          "Visual Studio Solution": 75,
+          "Markdown": 26,
+          "Bourne Shell": 2,
+          "DOS Batch": 1,
+          "SUM": 17691
+        }
+      },
+      {
+        "name": "Launchpad",
+        "loc": {
+          "JSON": 9340,
+          "F#": 7238,
+          "YAML": 422,
+          "Markdown": 262,
+          "XML": 80,
+          "JavaScript": 57,
+          "Visual Studio Solution": 21,
+          "SUM": 17420
+        }
+      }
+    ]
+  },
+  {
+    "date": "2021-07-31T23:00:00.000Z",
+    "repos": [
+      {
+        "name": "Account.AppReviewPrompt",
+        "loc": {
+          "F#": 2047,
+          "XML": 501,
+          "YAML": 370,
+          "Bourne Shell": 96,
+          "JSON": 58,
+          "SQL": 42,
+          "Markdown": 38,
+          "Visual Studio Solution": 21,
+          "F# Script": 16,
+          "SUM": 3189
+        }
+      },
+      {
+        "name": "LambdaZendeskProxy",
+        "loc": {
+          "C#": 233,
+          "Markdown": 114,
+          "Bourne Shell": 69,
+          "JSON": 61,
+          "YAML": 56,
+          "MSBuild script": 26,
+          "SUM": 559
+        }
+      },
+      {
+        "name": "TotallyMoney.GlobalNav",
+        "loc": {
+          "JSON": 24125,
+          "LESS": 905,
+          "JavaScript": 592,
+          "HTML": 438,
+          "Markdown": 93,
+          "Bourne Shell": 10,
+          "SUM": 26163
+        }
+      },
+      {
+        "name": "Zendesk.DataUpload.Lambda",
+        "loc": {
+          "JSON": 275480,
+          "JavaScript": 256749,
+          "TypeScript": 87575,
+          "Markdown": 14096,
+          "XML": 1948,
+          "diff": 588,
+          "YAML": 542,
+          "Windows Module Definition": 437,
+          "HTML": 260,
+          "CoffeeScript": 92,
+          "make": 40,
+          "Bourne Shell": 29,
+          "Bourne Again Shell": 20,
+          "Lisp": 6,
+          "SUM": 637862
+        }
+      },
+      {
+        "name": "TotallyMoney.Team",
+        "loc": {
+          "JSON": 20937,
+          "JavaScript": 10446,
+          "Markdown": 5425,
+          "JSX": 987,
+          "HTML": 385,
+          "CSS": 57,
+          "YAML": 42,
+          "Bourne Again Shell": 20,
+          "SUM": 38299
+        }
+      },
+      {
+        "name": "basin.js-client",
+        "loc": {
+          "JavaScript": 1650,
+          "Markdown": 260,
+          "YAML": 114,
+          "JSON": 90,
+          "HTML": 18,
+          "SUM": 2132
+        }
+      },
+      {
+        "name": "Account.NativeApp.Provisioning",
+        "loc": {
+          "Markdown": 36,
+          "SUM": 36
+        }
+      },
+      {
+        "name": "FirstImpressionsCalculations",
+        "loc": {
+          "JSON": 841319,
+          "F#": 5881,
+          "XML": 519,
+          "YAML": 202,
+          "Bourne Shell": 148,
+          "Visual Studio Solution": 114,
+          "Markdown": 31,
+          "SUM": 848214
+        }
+      },
+      {
+        "name": "BasinToBlueshift",
+        "loc": {
+          "F#": 560,
+          "YAML": 274,
+          "Markdown": 39,
+          "XML": 29,
+          "JSON": 16,
+          "Bourne Shell": 12,
+          "SUM": 930
+        }
+      },
+      {
+        "name": "Account.ConfigBackup",
+        "loc": {
+          "F#": 103,
+          "YAML": 94,
+          "F# Script": 70,
+          "Bourne Shell": 69,
+          "XML": 13,
+          "JSON": 12,
+          "SUM": 361
+        }
+      },
+      {
+        "name": "fsharp-lambda-scaffold",
+        "loc": {
+          "Bourne Shell": 105,
+          "YAML": 58,
+          "Markdown": 41,
+          "JSON": 31,
+          "F#": 22,
+          "awk": 20,
+          "XML": 11,
+          "SUM": 288
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.Lambda",
+        "loc": {
+          "C#": 4399,
+          "YAML": 1002,
+          "MSBuild script": 85,
+          "Visual Studio Solution": 83,
+          "Markdown": 27,
+          "SUM": 5596
+        }
+      },
+      {
+        "name": "SignupForm",
+        "loc": {
+          "JSON": 25921,
+          "JavaScript": 9332,
+          "JSX": 257,
+          "YAML": 239,
+          "SVG": 137,
+          "Bourne Shell": 86,
+          "Markdown": 64,
+          "SUM": 36036
+        }
+      },
+      {
+        "name": "TotallyMoney.DataRetriever.Lambda",
+        "loc": {
+          "JavaScript": 16832,
+          "C#": 8956,
+          "YAML": 542,
+          "Razor": 404,
+          "Visual Studio Solution": 131,
+          "MSBuild script": 115,
+          "CSS": 107,
+          "JSON": 27,
+          "XML": 15,
+          "SUM": 27129
+        }
+      },
+      {
+        "name": "QueueShift",
+        "loc": {
+          "F#": 928,
+          "YAML": 622,
+          "XML": 34,
+          "Markdown": 18,
+          "JSON": 17,
+          "Bourne Shell": 12,
+          "SUM": 1631
+        }
+      },
+      {
+        "name": "TotallyMoney.UI",
+        "loc": {
+          "JavaScript": 5510,
+          "TypeScript": 3563,
+          "SVG": 1131,
+          "Markdown": 185,
+          "JSON": 113,
+          "YAML": 103,
+          "HTML": 24,
+          "SUM": 10629
+        }
+      },
+      {
+        "name": "CRM.UpdateEmailAddress",
+        "loc": {
+          "F#": 289,
+          "YAML": 187,
+          "XML": 27,
+          "JSON": 15,
+          "Bourne Shell": 12,
+          "SUM": 530
+        }
+      },
+      {
+        "name": "CRM.EventAdapter",
+        "loc": {
+          "F#": 601,
+          "YAML": 264,
+          "Markdown": 43,
+          "XML": 28,
+          "JSON": 16,
+          "SUM": 952
+        }
+      },
+      {
+        "name": "TotallyMoney.Intranet.Lambda",
+        "loc": {
+          "C#": 2881,
+          "YAML": 531,
+          "MSBuild script": 76,
+          "Visual Studio Solution": 65,
+          "SUM": 3553
+        }
+      },
+      {
+        "name": "Judas.Silver",
+        "loc": {
+          "C#": 4442,
+          "XML": 4098,
+          "MSBuild script": 272,
+          "Visual Studio Solution": 23,
+          "Markdown": 11,
+          "SUM": 8846
+        }
+      },
+      {
+        "name": "TotallyMoney.Snowflake.ViewDefinitions",
+        "loc": {
+          "C#": 19719,
+          "YAML": 161,
+          "MSBuild script": 90,
+          "Visual Studio Solution": 76,
+          "Markdown": 26,
+          "Bourne Shell": 2,
+          "DOS Batch": 1,
+          "SUM": 20075
+        }
+      },
+      {
+        "name": "Launchpad",
+        "loc": {
+          "JSON": 10365,
+          "F#": 7877,
+          "YAML": 423,
+          "Markdown": 262,
+          "XML": 82,
+          "JavaScript": 61,
+          "Visual Studio Solution": 21,
+          "SUM": 19091
+        }
+      }
+    ]
+  }
+]
