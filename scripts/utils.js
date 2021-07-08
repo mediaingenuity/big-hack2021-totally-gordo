@@ -15,7 +15,6 @@ async function run(name, cmd, opts = null) {
 }
 
 async function getRepoList() {
-  console.log("a");
   try {
     const repos = await octokit.paginate("GET /orgs/{org}/repos", {
       org: "mediaingenuity",
