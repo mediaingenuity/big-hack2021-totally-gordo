@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import theme from "@totallymoney/ui/theme"
 import Button from "@totallymoney/ui/components/Button"
 import draw from "./chart"
 import data from "../../../data.json"
@@ -22,21 +21,30 @@ const RepoHistory = () => {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
 
   React.useEffect(() => {
+    let force
     if (!drawing) {
-      setDrawing(draw(containerRef.current, data.data[0]))
+      const objDraw = draw(containerRef.current, data.data[0])
+      force = objDraw.force
+      setDrawing(objDraw)
     }
+    return () => force.stop()
   }, [drawing, setDrawing])
 
-  const handleSelectYear = () => {
-    const nodes = drawing.createNodes(data.data[1])
-    console.log(nodes)
+  const handleSelectYear = (time: number) => {
+    const nodes = drawing.createNodes(data.data[time])
     drawing.graph.update(nodes)
   }
 
   return (
     <Page>
-      <Button onClick={handleSelectYear} variant="secondaryOutline">
-        here
+      <Button onClick={() => handleSelectYear(0)} variant="secondaryOutline">
+        month 1
+      </Button>
+      <Button onClick={() => handleSelectYear(1)} variant="secondaryOutline">
+        month 2
+      </Button>
+      <Button onClick={() => handleSelectYear(2)} variant="secondaryOutline">
+        month 3
       </Button>
       <GraphContainer ref={containerRef}></GraphContainer>
     </Page>

@@ -1,5 +1,5 @@
+import React from "react"
 import styled from "styled-components"
-
 import Layout from "../global/Layout"
 import Img from "../components/Image"
 import theme from "@totallymoney/ui/theme"
