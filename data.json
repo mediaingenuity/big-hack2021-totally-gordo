@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "date": "2018-01-01T00:00:00.000Z",
+      "repos": [
+        {
+          "name": "TotallyMoney.Account",
+          "loc": {
+            "js": 50,
+            "ts": 10,
+            "json": 6
+          }
+        },
+        {
+          "name": "TotallyMoney.UI",
+          "loc": {
+            "js": 200,
+            "ts": 5,
+            "json": 6
+          }
+        },
+        {
+          "name": "TotallyMoney.AccountNative",
+          "loc": {
+            "js": 80,
+            "ts": 30,
+            "json": 6
+          }
+        },
+        {
+          "name": "TotallyMoney.Static",
+          "loc": {
+            "js": 100,
+            "ts": 50,
+            "json": 6
+          }
+        }
+      ]
+    }
+  ]
+}

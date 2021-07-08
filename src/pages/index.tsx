@@ -5,6 +5,8 @@ import Layout from "../global/Layout"
 import Img from "../components/Image"
 import theme from "@totallymoney/ui/theme"
 
+import RepoHistory from "../components/RepoHistory"
+
 export const Page = styled.div`
   width: 100%;
   height: 100vh;
@@ -30,8 +32,7 @@ const Heading = styled.h1`
 const IndexPage = () => (
   <Layout>
     <Page>
-      <Image />
-      <Heading>Totally Gordo</Heading>
+      <RepoHistory />
     </Page>
   </Layout>
 )
