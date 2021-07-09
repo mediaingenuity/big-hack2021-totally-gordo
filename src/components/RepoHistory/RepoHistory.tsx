@@ -36,15 +36,15 @@ export const ToolTip = styled.div`
 export const MenuYears = styled.div`
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: auto;
   height: auto;
   padding: ${theme.spacingXS};
-  background-color: ${theme.almostWhite};
+  background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
-  top: ${theme.spacingS};
+  bottom: ${theme.spacingS};
   left: ${theme.spacingS};
   border-radius: ${theme.borderRadius};
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   z-index: 10;
 `
 
@@ -52,6 +52,8 @@ const Button = styled.div`
   padding: ${theme.spacingXS};
   display: block;
   cursor: pointer;
+  color: ${theme.textColorLight};
+  font-size: 12px;
 `
 
 const RepoHistory = () => {

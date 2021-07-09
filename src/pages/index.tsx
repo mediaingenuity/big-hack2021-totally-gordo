@@ -17,15 +17,17 @@ export const Page = styled.div`
 
 const Heading = styled.h1`
   position: absolute;
+  top: ${theme.spacingXS};
   font-family: ${theme.buenosAires};
-  font-size: 120px;
+  font-size: 8vw;
   color: ${theme.cloudyBlue};
-  text-shadow: 1px 1px 1px ${theme.indigo30};
+  z-index: 100;
 `
 
 const IndexPage = () => (
   <Layout>
     <Page>
+      <Heading>Tottaly Gordo</Heading>
       <RepoHistory />
     </Page>
   </Layout>
