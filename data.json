@@ -1812,26 +1812,6 @@
         }
       },
       {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
-        }
-      },
-      {
         "name": "TotallyMoney.Team",
         "loc": {
           "HTML": 362,
@@ -2555,26 +2535,6 @@
           "Markdown": 93,
           "Bourne Shell": 10,
           "SUM": 11380
-        }
-      },
-      {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
         }
       },
       {
@@ -3493,26 +3453,6 @@
           "Markdown": 93,
           "Bourne Shell": 10,
           "SUM": 15357
-        }
-      },
-      {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
         }
       },
       {
@@ -4704,26 +4644,6 @@
           "Markdown": 93,
           "Bourne Shell": 10,
           "SUM": 15438
-        }
-      },
-      {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
         }
       },
       {
@@ -6084,26 +6004,6 @@
           "Markdown": 93,
           "Bourne Shell": 10,
           "SUM": 15438
-        }
-      },
-      {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
         }
       },
       {
@@ -7633,26 +7533,6 @@
           "Markdown": 93,
           "Bourne Shell": 10,
           "SUM": 26163
-        }
-      },
-      {
-        "name": "Zendesk.DataUpload.Lambda",
-        "loc": {
-          "JSON": 275480,
-          "JavaScript": 256749,
-          "TypeScript": 87575,
-          "Markdown": 14096,
-          "XML": 1948,
-          "diff": 588,
-          "YAML": 542,
-          "Windows Module Definition": 437,
-          "HTML": 260,
-          "CoffeeScript": 92,
-          "make": 40,
-          "Bourne Shell": 29,
-          "Bourne Again Shell": 20,
-          "Lisp": 6,
-          "SUM": 637862
         }
       },
       {
