@@ -56,6 +56,19 @@ const languages = [
   "XAML",
 ]
 
+const splitName = (name) => {
+  const nameSplit = name.split(".")
+  return nameSplit.join(" ")
+}
+
+const fetchFontSize = (d) => {
+  const size = d.size / 3000
+  if (size < 8) {
+    return 8
+  }
+  return size
+}
+
 const COLOR = Object.entries(theme)
   .filter(
     ([key, value]) =>
@@ -85,6 +98,7 @@ export const init = (container: HTMLDivElement, data) => {
       "collision",
       d3.forceCollide().radius((d) => radiusScale(d.size) + 10)
     )
+
     .force("center", d3.forceCenter().strength(0.1))
     .force("charge", d3.forceManyBody().strength(-100))
     .force("x", d3.forceX())
@@ -149,14 +163,6 @@ export const init = (container: HTMLDivElement, data) => {
   )
 
   let tooltip = d3.select("#tooltip")
-
-  const fetchFontSize = (d) => {
-    const size = d.size / 3000
-    if (size < 8) {
-      return 8
-    }
-    return size
-  }
 
   ticked = () => {
     node
@@ -247,8 +253,6 @@ export const init = (container: HTMLDivElement, data) => {
           navigate(`/languages?repo=${d.name}&date=${date}`)
         })
 
-        console.log(theme)
-
         function getNodeToolTip(item, name) {
           let details = `<div 
             style="
@@ -257,7 +261,7 @@ export const init = (container: HTMLDivElement, data) => {
               font-size: 16px;
               font-weight: bold;
               color: ${theme.alertError};
-            ">${name}</div>`
+            ">${splitName(name)}</div>`
 
           item.forEach((item) => {
             details = `${details} <div style="margin: 3px 0; color: ${
