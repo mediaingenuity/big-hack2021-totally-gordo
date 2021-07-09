@@ -16,17 +16,25 @@ const Header = styled.h1`
 
 const Languages = () => {
     const [data, setData] = useState(null)
+    const [notfound, setNotFound] = useState(false)
     const [queryRepo, _] = useQueryParam("repo", StringParam)
 
     useEffect(() => {
         if (JSONData) {
-            setData(JSONData.data[0].repos.filter((repo) => repo.name.toLowerCase() === queryRepo))
+            const filterRepo = JSONData[0].repos.filter((repo) => repo.name.toLowerCase() === queryRepo.toLowerCase())
+
+            if (filterRepo.length === 1) {
+                setData(JSONData[0].repos.filter((repo) => repo.name.toLowerCase() === queryRepo.toLowerCase()))
+            } else {
+                setNotFound(true)
+            }
         }
     }, [])
 
     return (
         <Layout>
             <Page>
+
                 {data ? (
                     <>
                         <Header>{queryRepo}</Header>
@@ -34,7 +42,7 @@ const Languages = () => {
                             <DonutComponent x={45} y={20} data={data[0]} />
                         </svg>
                     </>
-                ) : (<p>Loading</p>)
+                ) : notfound ? (<p>Repository not found, check query param</p>) : (<p>Loading</p>)
                 }
             </Page>
         </Layout>

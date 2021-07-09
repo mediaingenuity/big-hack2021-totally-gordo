@@ -85,7 +85,7 @@ const DonutComponent = props => {
                 )}
                 {selectedCount && (
                     <tspan dy="1.5em" x="0.3em">
-                        {selectedCount}%
+                        {selectedCount / 100}%
                     </tspan>
                 )}
             </text>
