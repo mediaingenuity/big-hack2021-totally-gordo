@@ -26,7 +26,7 @@ const DonutComponent = props => {
     const [selectedCount, setSelectedCount] = useState("")
 
     //slices d3 color definition
-    const COLOR = Object.entries(theme).filter(([key, value]) => key.includes('dataVisualisation')).map(([_, color]) => color)
+    const COLOR = Object.entries(theme).filter(([key, value]) => key.includes('dataVisualisation') || key.includes('eligibilityLevel') ).map(([_, color]) => color)
     const colorScale = scaleOrdinal(COLOR)
 
     //main function responding to a click on a slice
@@ -37,11 +37,14 @@ const DonutComponent = props => {
         // onChangeGroup(label, fill);
     }
 
+    const filterContent = Object.entries(data.loc).filter(([key]) => key !== 'SUM')
+
     //wrapper function for the pie chart to
     //render slices as ReactJs components
     const renderSlice = measure => {
         const index = measure.index
-        const content = Object.entries(data.loc)
+        const content = filterContent
+
         return (
             <SliceComponent
                 key={index}
@@ -57,7 +60,7 @@ const DonutComponent = props => {
     //creation of the pie
     let pieChart = pie().sort(null)
     //creation of the data array from test data
-    const measures = Object.entries(data.loc).map(([_, value]) => value)
+    const measures = filterContent.map(([_, value]) => value)
     const total = measures.reduce((acc, value) => {
         return acc + value
     }, 0)
