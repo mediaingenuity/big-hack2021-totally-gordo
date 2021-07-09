@@ -37,7 +37,7 @@ const DonutComponent = props => {
         // onChangeGroup(label, fill);
     }
 
-    const filterContent = Object.entries(data.loc).filter(([key]) => key !== 'SUM')
+    const filterContent = Object.entries(data.loc).filter(([key]) => key !== 'SUM' && key !== 'JSON')
 
     //wrapper function for the pie chart to
     //render slices as ReactJs components
