@@ -16,7 +16,6 @@ export const GraphContainer = styled.div`
   width: 80%;
   height: 100%;
   border: 1px solid magenta;
-  margin-left: auto;
   position: absolute;
   top: 0;
   right: 0;

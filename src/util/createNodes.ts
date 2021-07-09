@@ -1,4 +1,7 @@
-import * as d3 from "d3"
+import { max, percentage } from "../util/basicMath"
+
+const getMaxValue = (d) =>
+  d.reduce((prev, current) => (prev.size > current.size ? prev : current))
 
 export const createNodes = (d) => {
   const nodes = []
@@ -8,7 +11,8 @@ export const createNodes = (d) => {
       if (item !== "SUM") {
         children.push({
           name: item,
-          size: +node.loc[item],
+          size: node.loc[item],
+          percentage: percentage(node.loc[item], node.loc),
         })
       }
     })
@@ -16,6 +20,7 @@ export const createNodes = (d) => {
       id: index,
       name: node.name,
       children: children,
+      maxValue: getMaxValue(children),
       size: +node.loc.SUM,
     })
   })
