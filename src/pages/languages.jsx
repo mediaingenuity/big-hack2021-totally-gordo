@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components"
-import theme from "@totallymoney/ui/theme";
+import theme from "@totallymoney/ui/theme"
 
 import JSONData from "../../data.json"
 
@@ -17,7 +17,12 @@ const Header = styled.h1`
   font-size: 8vw;
   color: ${theme.cloudyBlue};
   z-index: 100;
-`;
+`
+
+const Error = styled.span`
+  font-size: 10vw;
+  margin-bottom: 2vw;
+`
 
 const Languages = () => {
     const [data, setData] = useState(null)
@@ -59,7 +64,8 @@ const Languages = () => {
                             <DonutComponent x={45} y={35} data={data[0]} />
                         </svg>
                     </>
-                ) : notfound ? (<p>Repository not found (Needs repo and date query param)</p>) : (<p>Loading</p>)
+                ) : notfound ? (<><Error role="img">💔</Error><p>Repository not found (Needs repo and date query
+                    param)</p></>) : (<><Error role="img">🐸</Error><p>Loading...</p></>)
                 }
             </Page>
         </Layout>
