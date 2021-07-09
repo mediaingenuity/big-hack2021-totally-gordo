@@ -16,7 +16,7 @@ const animateSlice = (sliceRef, slice, innerRadius, outerRadius) => {
 };
 
 const sliceTextStyle = {
-    fontSize: "1px",
+    fontSize: "1.3px",
     fontFamily: "verdana",
     fontWeight: "bold"
 };
@@ -31,8 +31,8 @@ const SliceComponent = props => {
         return a > 90 ? a - 180 : a;
     };
 
-    const outerRadius = 15;
-    const innerRadius = outerRadius / 2;
+    const outerRadius = 25;
+    const innerRadius = outerRadius / 2.2;
 
     const { index, value, fill, label, onClickSlice } = props;
 
