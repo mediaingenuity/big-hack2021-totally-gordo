@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { scaleOrdinal } from "d3-scale"
 import { pie } from "d3-shape"
-import { schemeCategory10 } from "d3"
+import theme from "@totallymoney/ui/theme"
 
 import SliceComponent from "./SliceComponent"
 
@@ -26,7 +26,8 @@ const DonutComponent = props => {
     const [selectedCount, setSelectedCount] = useState("")
 
     //slices d3 color definition
-    const colorScale = scaleOrdinal(schemeCategory10)
+    const COLOR = Object.entries(theme).filter(([key, value]) => key.includes('dataVisualisation')).map(([_, color]) => color)
+    const colorScale = scaleOrdinal(COLOR)
 
     //main function responding to a click on a slice
     const onClickSlice = (label, fill, value) => {
