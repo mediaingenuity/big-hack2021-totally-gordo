@@ -1,8 +1,10 @@
 import * as React from "react"
 import * as d3 from "d3"
-
+import { navigate } from "gatsby"
+import theme from "@totallymoney/ui/theme"
 import { drag } from "../../util/drag"
 import { sum, max } from "../../util/basicMath"
+import { exit } from "yargs"
 
 const languages = [
   "C#",
@@ -49,8 +51,9 @@ export const init = (container: HTMLDivElement, data) => {
     .force("y", d3.forceY())
 
   const g = SVG.append("g")
+  let nodesGroup = g.append("g").attr("class", "nodes")
 
-  let node = g
+  let node = nodesGroup
     .selectAll("circle")
     .data(data)
     .join((enter) =>
@@ -63,11 +66,29 @@ export const init = (container: HTMLDivElement, data) => {
         .attr("fill", (d) => colors(d.maxValue.name))
     )
 
-  let label = g
+  let labels = g.append("g").attr("class", "label-g")
+  let labelsName = g.append("g").attr("class", "label-name-g")
+  let label = labels
     .selectAll("text")
     .data(data)
     .join((enter) =>
-      enter.append("text").attr("text-anchor", "start").style("opacity", 0.2)
+      enter
+        .append("text")
+        .attr("class", "label")
+        .attr("text-anchor", "start")
+        .style("opacity", 0.2)
+    )
+
+  let labelName = labelsName
+    .selectAll("text")
+    .data(data)
+    .join((enter) =>
+      enter
+        .append("text")
+        .attr("class", "label")
+        .attr("text-anchor", "start")
+        .style("opacity", 0.4)
+        .attr("fill", theme.grey)
     )
 
   node.transition().duration(500)
@@ -93,9 +114,16 @@ export const init = (container: HTMLDivElement, data) => {
       .attr("fill", (d) => colors(d.maxValue.name))
 
     label
-      .attr("x", (d) => d.x - 10)
+      .attr("x", (d) => d.x - 50)
       .attr("y", (d) => d.y)
       .text((d) => `${d.maxValue.percentage} % ${d.maxValue.name}`)
+      .style("font-size", "12px")
+
+    labelName
+      .attr("x", (d) => d.x - 50)
+      .attr("y", (d) => d.y - 20)
+      .text((d) => `${d.name}`)
+      .style("font-size", "16px")
   }
 
   function zoomed({ transform }) {
@@ -121,7 +149,7 @@ export const init = (container: HTMLDivElement, data) => {
               .attr("class", (d) => `github ${d.name}`)
               .attr("cx", (d) => d.x)
               .attr("cy", (d) => d.y)
-              .attr("r", (d) => radiusScale(d.size)),
+              .attr("r", (d) => 0),
           (update) =>
             update
               .transition()
@@ -131,15 +159,31 @@ export const init = (container: HTMLDivElement, data) => {
         )
         .selection()
 
-      label = g
+      label = labels
+        .selectAll("text")
+        .data(newNodes, (d) => d.id)
+        .join((enter) =>
+          enter
+            .append("text")
+            .attr("class", ".label")
+            .attr("text-anchor", "start")
+            .style("opacity", 0.2)
+        )
+
+      labelName = labelsName
         .selectAll("text")
         .data(newNodes, (d) => d.id)
         .join((enter) =>
           enter
             .append("text")
             .attr("text-anchor", "start")
-            .style("opacity", 0.2)
+            .style("opacity", 0.4)
+            .attr("fill", theme.grey)
         )
+
+      node.on("click", (event, d) => {
+        navigate(`/languages?repo=${d.name}`)
+      })
 
       node.on("mouseover", (event, d) => {
         tooltip

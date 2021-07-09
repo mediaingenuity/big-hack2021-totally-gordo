@@ -6,7 +6,6 @@ import theme from "@totallymoney/ui/theme"
 import { createNodes } from "../../util/createNodes"
 import * as d3 from "d3"
 
-console.log(theme)
 export const Page = styled.div`
   width: 100%;
   height: 100%;
@@ -56,9 +55,27 @@ const Button = styled.div`
   font-size: 12px;
 `
 
+const YearHeader = styled.div`
+  position: fixed;
+  top: 200px;
+  transform: rotate(-90deg);
+  z-index: 150;
+  font-size: 36px;
+  font-family: ${theme.buenosAires};
+  color: ${theme.cloudyBlue};
+
+  p {
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+`
+
 const RepoHistory = () => {
   const [drawing, setDrawing] = React.useState<any>(null)
+  const [year, setYear] = React.useState<any>(null)
   const containerRef = React.useRef<HTMLDivElement | null>(null)
+  const format = d3.timeFormat("%B %Y")
 
   React.useEffect(() => {
     let force
@@ -70,29 +87,36 @@ const RepoHistory = () => {
     return () => force.stop()
   }, [drawing, setDrawing])
 
-  const handleSelectYear = (time: number) => {
+  const handleSelectYear = (index: number, time: Date) => {
     drawing.force.stop()
-    drawing.graph.update(createNodes(data[time]))
+    setYear(format(new Date(time)))
+    drawing.graph.update(createNodes(data[index]))
   }
 
   return (
     <Page>
       <MenuYears>
         {data.map((d, index) => {
-          const format = d3.timeFormat("%B %Y")
+          const time = format(new Date(d.date))
           return (
             <Button
               key={`btn_${index}`}
-              onClick={() => handleSelectYear(index)}
+              onClick={() => handleSelectYear(index, time)}
               variant="secondaryOutline"
             >
-              {format(new Date(d.date))}
+              {time}
             </Button>
           )
         })}
       </MenuYears>
 
       <GraphContainer ref={containerRef}></GraphContainer>
+      {year ? (
+        <YearHeader>
+          <p>{year}</p>
+        </YearHeader>
+      ) : null}
+
       <ToolTip id="tooltip"></ToolTip>
     </Page>
   )
