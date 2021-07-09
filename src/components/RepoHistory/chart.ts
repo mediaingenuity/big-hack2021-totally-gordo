@@ -83,7 +83,7 @@ export const init = (container: HTMLDivElement, data) => {
     .forceSimulation(data)
     .force(
       "collision",
-      d3.forceCollide().radius((d) => radiusScale(d.size))
+      d3.forceCollide().radius((d) => radiusScale(d.size) + 10)
     )
     .force("center", d3.forceCenter().strength(0.1))
     .force("charge", d3.forceManyBody().strength(-100))
@@ -210,13 +210,13 @@ export const init = (container: HTMLDivElement, data) => {
                 .ease(d3.easeLinear)
                 .attr("r", 0),
             (exit) =>
-              exit.transition().duration(300).ease(d3.easeLinear).attr("r", 0)
+              exit.transition().duration(1000).ease(d3.easeLinear).attr("r", 0)
           )
           .selection()
 
         node
           .transition()
-          .duration(2000)
+          .duration(100)
           .ease(d3.easeLinear)
           .attr("r", (d) => radiusScale(d.size))
           .selection()
