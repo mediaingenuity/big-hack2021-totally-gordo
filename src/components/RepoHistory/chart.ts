@@ -131,7 +131,7 @@ export const init = (container: HTMLDivElement, data) => {
         .attr("fill", theme.grey)
     )
 
-  node.transition().duration(500)
+  node.transition().duration(2000)
 
   SVG.call(
     d3
@@ -176,7 +176,6 @@ export const init = (container: HTMLDivElement, data) => {
     force: forceSimulation,
     graph: Object.assign(SVG.node(), {
       update(nodes, date) {
-        console.log(date)
         const oldNodesMap = new Map(node.data().map((d) => [d.id, d]))
         const newNodes = nodes.map((d) => {
           return Object.assign(oldNodesMap.get(d.id) || {}, d)
@@ -195,10 +194,17 @@ export const init = (container: HTMLDivElement, data) => {
             (update) =>
               update
                 .transition()
-                .duration(750)
+                .duration(2000)
                 .ease(d3.easeLinear)
                 .attr("r", (d) => radiusScale(d.size))
           )
+          .selection()
+
+        node
+          .transition()
+          .duration(2000)
+          .ease(d3.easeLinear)
+          .attr("r", (d) => radiusScale(d.size))
           .selection()
 
         label = labels
