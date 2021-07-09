@@ -56,7 +56,14 @@ const languages = [
   "XAML",
 ]
 
-const colors = d3.scaleOrdinal().domain(languages).range(d3.schemeDark2)
+const COLOR = Object.entries(theme)
+  .filter(
+    ([key, value]) =>
+      key.includes("dataVisualisation") || key.includes("eligibilityLevel")
+  )
+  .map(([_, color]) => color)
+
+const colors = d3.scaleOrdinal().domain(languages).range(COLOR)
 
 export const init = (container: HTMLDivElement, data) => {
   const containerRect = container.getBoundingClientRect()

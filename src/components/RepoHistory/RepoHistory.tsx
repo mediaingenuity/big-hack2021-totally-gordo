@@ -85,6 +85,12 @@ const RepoHistory = () => {
       const objDraw = init(containerRef.current, createNodes(data[0]))
       force = objDraw.force
       setDrawing(objDraw)
+
+      // first call
+      setTimeout(() => {
+        setYear(format(new Date(data[0].date)))
+        objDraw.graph.update(createNodes(data[0]), data[0].date)
+      }, 500)
     }
     return () => force?.stop()
   }, [drawing, setDrawing])
