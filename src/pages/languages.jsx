@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components"
+import theme from "@totallymoney/ui/theme";
+
 import JSONData from "../../data.json"
 
 import DonutComponent from "../components/DonutChart/DonutComponent"
@@ -9,10 +11,13 @@ import Layout from "../global/Layout"
 import { Page } from "./index"
 
 const Header = styled.h1`
-  font-size: 5vw;
   margin-top: 2vw;
   margin-bottom: 4vw;
-`
+  font-family: ${theme.buenosAires};
+  font-size: 8vw;
+  color: ${theme.cloudyBlue};
+  z-index: 100;
+`;
 
 const Languages = () => {
     const [data, setData] = useState(null)
