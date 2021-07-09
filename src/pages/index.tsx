@@ -9,15 +9,10 @@ import RepoHistory from "../components/RepoHistory"
 export const Page = styled.div`
   width: 100%;
   height: 100vh;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`
-
-const Image = styled(Img)`
-  position: absolute;
 `
 
 const Heading = styled.h1`

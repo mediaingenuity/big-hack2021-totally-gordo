@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "TM gatsby boilerplate",
+    title: "Totally Gordo",
   },
   plugins: [
     {

@@ -1,21 +1,22 @@
 import React from "react"
 import styled from "styled-components"
-import Button from "@totallymoney/ui/components/Button"
 import { init } from "./chart"
 import data from "../../../data.json"
 import theme from "@totallymoney/ui/theme"
 import { createNodes } from "../../util/createNodes"
+import * as d3 from "d3"
 
+console.log(theme)
 export const Page = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
+  background-color: ${theme.neutral120};
 `
 
 export const GraphContainer = styled.div`
-  width: 80%;
+  width: 100%;
   height: 100%;
-  border: 1px solid magenta;
   position: absolute;
   top: 0;
   right: 0;
@@ -23,14 +24,34 @@ export const GraphContainer = styled.div`
 
 export const ToolTip = styled.div`
   width: auto;
-  display: flex;
+  display: none;
   max-width: 500px;
-  height: auto;
   padding: ${theme.spacingM};
   background-color: ${theme.almostWhite};
   position: absolute;
   top: 0;
   right: 0;
+`
+
+export const MenuYears = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  padding: ${theme.spacingXS};
+  background-color: ${theme.almostWhite};
+  position: fixed;
+  top: ${theme.spacingS};
+  left: ${theme.spacingS};
+  border-radius: ${theme.borderRadius};
+  border-top-left-radius: 0;
+  z-index: 10;
+`
+
+const Button = styled.div`
+  padding: ${theme.spacingXS};
+  display: block;
+  cursor: pointer;
 `
 
 const RepoHistory = () => {
@@ -54,17 +75,20 @@ const RepoHistory = () => {
 
   return (
     <Page>
-      {data.map((d, index) => {
-        return (
-          <Button
-            key={`btn_${index}`}
-            onClick={() => handleSelectYear(index)}
-            variant="secondaryOutline"
-          >
-            {d.date}
-          </Button>
-        )
-      })}
+      <MenuYears>
+        {data.map((d, index) => {
+          const format = d3.timeFormat("%B %Y")
+          return (
+            <Button
+              key={`btn_${index}`}
+              onClick={() => handleSelectYear(index)}
+              variant="secondaryOutline"
+            >
+              {format(new Date(d.date))}
+            </Button>
+          )
+        })}
+      </MenuYears>
 
       <GraphContainer ref={containerRef}></GraphContainer>
       <ToolTip id="tooltip"></ToolTip>
