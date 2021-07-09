@@ -12,7 +12,7 @@ const donutTextStyle = {
 }
 
 const lineSubTitleTextStyle = {
-    fontSize: "2px",
+    fontSize: "3px",
     fontFamily: "verdana",
     fontWeight: "bold",
 }
@@ -63,9 +63,9 @@ const DonutComponent = props => {
             <text
                 textAnchor="middle"
                 style={lineSubTitleTextStyle}
-                fill="lightgrey"
+                fill="grey"
                 x={0}
-                y={-18}
+                y={-28}
             >
                 Current language percentage
             </text>

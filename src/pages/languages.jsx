@@ -10,9 +10,9 @@ import { Page } from "./index"
 
 const Header = styled.h1`
   font-size: 5vw;
+  margin-top: 2vw;
   margin-bottom: 4vw;
 `
-
 
 const Languages = () => {
     const [data, setData] = useState(null)
@@ -51,7 +51,7 @@ const Languages = () => {
                     <>
                         <Header>{queryRepo}</Header>
                         <svg viewBox="-2 0 100 100" preserveAspectRatio="xMidYMid meet">
-                            <DonutComponent x={45} y={20} data={data[0]} />
+                            <DonutComponent x={45} y={35} data={data[0]} />
                         </svg>
                     </>
                 ) : notfound ? (<p>Repository not found (Needs repo and date query param)</p>) : (<p>Loading</p>)
