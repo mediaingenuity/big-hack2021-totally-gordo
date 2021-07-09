@@ -7,13 +7,13 @@ import SliceComponent from "./SliceComponent"
 
 const donutTextStyle = {
     fontSize: "1.5px",
-    fontFamily: "verdana",
+    fontFamily: theme.buenosAires,
     fontWeight: "bold",
 }
 
 const lineSubTitleTextStyle = {
     fontSize: "3px",
-    fontFamily: "verdana",
+    fontFamily: theme.buenosAires,
     fontWeight: "bold",
 }
 
