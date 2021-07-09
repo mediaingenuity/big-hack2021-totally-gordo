@@ -5537,7 +5537,7 @@ core-js-pure@^3.0.1, core-js-pure@^3.15.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.15.2.tgz#c8e0874822705f3385d3197af9348f7c9ae2e3ce"
   integrity sha512-D42L7RYh1J2grW8ttxoY1+17Y4wXZeKe7uyplAI3FkNQyI5OgBIAjUfFiTPfL1rs0qLpxaabITNbjKl1Sp82tA==
 
-core-js@^2.4.0:
+core-js@2, core-js@^2.4.0:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
@@ -14705,6 +14705,11 @@ schema-utils@^3.0.0:
     "@types/json-schema" "^7.0.7"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
+
+scrollama@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/scrollama/-/scrollama-2.2.2.tgz#7a05382702e65884a7e584a0d88f7bb6fe300860"
+  integrity sha512-ZU5uuiHRhtomdgdSwwv0ThSPnjeO5WAmBrlNEc/DowdPN/wewro4zvpOpEFr0FakhvvujxA1IskJCn9rFbEz1g==
 
 seek-bzip@^1.0.5:
   version "1.0.6"

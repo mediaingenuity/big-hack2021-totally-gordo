@@ -5,6 +5,7 @@ import data from "../../../data.json"
 import theme from "@totallymoney/ui/theme"
 import { createNodes } from "../../util/createNodes"
 import * as d3 from "d3"
+import setInterval from "core-js/library/fn/set-interval"
 
 export const Page = styled.div`
   width: 100%;
@@ -31,7 +32,7 @@ export const ToolTip = styled.div`
   top: 0;
   right: 0;
   border-radius: ${theme.spacingS};
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 `
 
 export const MenuYears = styled.div`
@@ -90,7 +91,7 @@ const RepoHistory = () => {
       setTimeout(() => {
         setYear(format(new Date(data[0].date)))
         objDraw.graph.update(createNodes(data[0]), data[0].date)
-      }, 500)
+      }, 2000)
     }
     return () => force?.stop()
   }, [drawing, setDrawing])
@@ -102,31 +103,33 @@ const RepoHistory = () => {
   }
 
   return (
-    <Page>
-      <MenuYears>
-        {data.map((d, index) => {
-          const time = format(new Date(d.date))
-          return (
-            <Button
-              key={`btn_${index}`}
-              onClick={() => handleSelectYear(index, time)}
-              variant="secondaryOutline"
-            >
-              {time}
-            </Button>
-          )
-        })}
-      </MenuYears>
+    <>
+      <Page>
+        <MenuYears>
+          {data.map((d, index) => {
+            const time = format(new Date(d.date))
+            return (
+              <Button
+                key={`btn_${index}`}
+                onClick={() => handleSelectYear(index, time)}
+                variant="secondaryOutline"
+              >
+                {time}
+              </Button>
+            )
+          })}
+        </MenuYears>
 
-      <GraphContainer ref={containerRef}></GraphContainer>
-      {year ? (
-        <YearHeader>
-          <p>{year}</p>
-        </YearHeader>
-      ) : null}
+        <GraphContainer ref={containerRef}></GraphContainer>
+        {year ? (
+          <YearHeader>
+            <p>{year}</p>
+          </YearHeader>
+        ) : null}
 
-      <ToolTip id="tooltip"></ToolTip>
-    </Page>
+        <ToolTip id="tooltip"></ToolTip>
+      </Page>
+    </>
   )
 }
 

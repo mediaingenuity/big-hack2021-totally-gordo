@@ -131,7 +131,11 @@ export const init = (container: HTMLDivElement, data) => {
         .attr("fill", theme.grey)
     )
 
-  node.transition().duration(2000)
+  node
+    .transition()
+    .duration(2000)
+    .attr("cy", (d) => d.y)
+    .attr("r", (d) => radiusScale(d.size))
 
   SVG.call(
     d3
@@ -188,13 +192,13 @@ export const init = (container: HTMLDivElement, data) => {
               enter
                 .append("circle")
                 .attr("class", (d) => `github ${d.name}`)
-                .attr("cx", (d) => d.x)
-                .attr("cy", (d) => d.y)
+                .attr("cx", (d) => 0)
+                .attr("cy", (d) => 0)
                 .attr("r", (d) => 0),
             (update) =>
               update
                 .transition()
-                .duration(1000)
+                .duration(2000)
                 .ease(d3.easeLinear)
                 .attr("r", 0),
             (exit) =>
@@ -235,14 +239,25 @@ export const init = (container: HTMLDivElement, data) => {
           navigate(`/languages?repo=${d.name}&date=${date}`)
         })
 
-        function getNodeToolTip(item) {
-          let details = ``
+        console.log(theme)
+
+        function getNodeToolTip(item, name) {
+          let details = `<div 
+            style="
+              margin-bottom: 24px;
+              font-family: 'Buenos aires';
+              font-size: 16px;
+              font-weight: bold;
+              color: ${theme.alertError};
+            ">${name}</div>`
 
           item.forEach((item) => {
-            details = `${details} <div style="margin: 3px 0">
-                <span style="background-color:${colors(item.name)}">${
-              item.name
-            }</span> ${item.size} files
+            details = `${details} <div style="margin: 3px 0; color: ${
+              theme.grey
+            };">
+                <span style="background-color:${colors(
+                  item.name
+                )}; color: white">${item.name}</span> ${item.size} files
               </div>`
           })
 
@@ -250,7 +265,7 @@ export const init = (container: HTMLDivElement, data) => {
         }
 
         node.on("mouseover", (event, d) => {
-          let details = getNodeToolTip(d.children)
+          let details = getNodeToolTip(d.children, d.name)
 
           tooltip
             .style("opacity", 1)
@@ -262,7 +277,7 @@ export const init = (container: HTMLDivElement, data) => {
         })
 
         labelName.on("mouseover", (event, d) => {
-          let details = getNodeToolTip(d.children)
+          let details = getNodeToolTip(d.children, d.name)
           tooltip
             .style("opacity", 1)
             .style("display", "flex")
