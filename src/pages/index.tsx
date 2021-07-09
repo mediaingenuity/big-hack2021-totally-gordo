@@ -1,10 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import Layout from "../global/Layout";
-import Img from "../components/Image";
-import theme from "@totallymoney/ui/theme";
+import React from "react"
+import styled from "styled-components"
+import Layout from "../global/Layout"
+import theme from "@totallymoney/ui/theme"
 
-import RepoHistory from "../components/RepoHistory";
+import RepoHistory from "../components/RepoHistory"
 
 export const Page = styled.div`
   width: 100%;
@@ -13,7 +12,7 @@ export const Page = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const Heading = styled.h1`
   position: absolute;
@@ -22,7 +21,7 @@ const Heading = styled.h1`
   font-size: 8vw;
   color: ${theme.cloudyBlue};
   z-index: 100;
-`;
+`
 
 const IndexPage = () => (
   <Layout>
@@ -31,6 +30,6 @@ const IndexPage = () => (
       <RepoHistory />
     </Page>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

@@ -24,12 +24,14 @@ export const GraphContainer = styled.div`
 export const ToolTip = styled.div`
   width: auto;
   display: none;
-  max-width: 500px;
+  max-width: 300px;
   padding: ${theme.spacingM};
-  background-color: ${theme.almostWhite};
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   top: 0;
   right: 0;
+  border-radius: ${theme.spacingS};
+  border-bottom-left-radius: 0;
 `
 
 export const MenuYears = styled.div`
@@ -37,12 +39,12 @@ export const MenuYears = styled.div`
   flex-direction: column;
   width: auto;
   height: auto;
-  padding: ${theme.spacingXS};
+  padding: ${theme.spacingL};
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   bottom: ${theme.spacingS};
   left: ${theme.spacingS};
-  border-radius: ${theme.borderRadius};
+  border-radius: 62px;
   border-bottom-left-radius: 0;
   z-index: 10;
 `
