@@ -57,6 +57,9 @@ const DonutComponent = props => {
     let pieChart = pie().sort(null)
     //creation of the data array from test data
     const measures = Object.entries(data.loc).map(([_, value]) => value)
+    const total = measures.reduce((acc, value) => {
+        return acc + value
+    }, 0)
 
     return (
         <g transform={`translate(${x}, ${y})`}>
@@ -85,7 +88,7 @@ const DonutComponent = props => {
                 )}
                 {selectedCount && (
                     <tspan dy="1.5em" x="0.3em">
-                        {selectedCount / 100}%
+                        {(selectedCount / total * 100).toFixed(2)}%
                     </tspan>
                 )}
             </text>
