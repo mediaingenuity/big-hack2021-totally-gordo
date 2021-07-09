@@ -194,9 +194,11 @@ export const init = (container: HTMLDivElement, data) => {
             (update) =>
               update
                 .transition()
-                .duration(2000)
+                .duration(1000)
                 .ease(d3.easeLinear)
-                .attr("r", (d) => radiusScale(d.size))
+                .attr("r", 0),
+            (exit) =>
+              exit.transition().duration(300).ease(d3.easeLinear).attr("r", 0)
           )
           .selection()
 
