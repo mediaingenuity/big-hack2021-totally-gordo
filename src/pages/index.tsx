@@ -13,6 +13,7 @@ export const Page = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: ${theme.neutral120};
 `;
 
 const Heading = styled.h1`
