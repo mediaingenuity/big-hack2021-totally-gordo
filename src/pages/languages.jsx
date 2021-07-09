@@ -14,7 +14,7 @@ const Header = styled.h1`
   margin-top: 2vw;
   margin-bottom: 4vw;
   font-family: ${theme.buenosAires};
-  font-size: 8vw;
+  font-size: 6em;
   color: ${theme.cloudyBlue};
   z-index: 100;
 `
