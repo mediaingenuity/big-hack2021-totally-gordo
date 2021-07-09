@@ -150,6 +150,14 @@ export const init = (container: HTMLDivElement, data) => {
 
   let tooltip = d3.select("#tooltip")
 
+  const fetchFontSize = (d) => {
+    const size = d.size / 3000
+    if (size < 8) {
+      return 8
+    }
+    return size
+  }
+
   ticked = () => {
     node
       .attr("cx", (d) => d.x)
@@ -158,16 +166,16 @@ export const init = (container: HTMLDivElement, data) => {
       .attr("fill", (d) => colors(d.maxValue.name))
 
     label
-      .attr("x", (d) => d.x - 50)
-      .attr("y", (d) => d.y)
+      .attr("x", (d) => d.x - radiusScale(d.size) / 2)
+      .attr("y", (d) => d.y + fetchFontSize(d))
       .text((d) => `${d.maxValue.percentage} % ${d.maxValue.name}`)
-      .style("font-size", "12px")
+      .style("font-size", (d) => `${fetchFontSize(d) - 4}px`)
 
     labelName
-      .attr("x", (d) => d.x - 50)
-      .attr("y", (d) => d.y - 20)
+      .attr("x", (d) => d.x - radiusScale(d.size) / 2)
+      .attr("y", (d) => d.y)
       .text((d) => `${d.name}`)
-      .style("font-size", "16px")
+      .style("font-size", (d) => `${fetchFontSize(d)}px`)
   }
 
   function zoomed({ transform }) {
