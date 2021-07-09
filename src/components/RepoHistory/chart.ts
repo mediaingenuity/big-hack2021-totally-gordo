@@ -132,81 +132,79 @@ export const init = (container: HTMLDivElement, data) => {
 
   forceSimulation.stop()
 
-  const graph = Object.assign(SVG.node(), {
-    update(data) {
-      const nodes = data
-      const oldNodesMap = new Map(node.data().map((d) => [d.id, d]))
-      const newNodes = nodes.map((d) => {
-        return Object.assign(oldNodesMap.get(d.id) || {}, d)
-      })
-
-      node = node
-        .data(newNodes, (d) => d.id)
-        .join(
-          (enter) =>
-            enter
-              .append("circle")
-              .attr("class", (d) => `github ${d.name}`)
-              .attr("cx", (d) => d.x)
-              .attr("cy", (d) => d.y)
-              .attr("r", (d) => 0),
-          (update) =>
-            update
-              .transition()
-              .duration(750)
-              .ease(d3.easeLinear)
-              .attr("r", (d) => radiusScale(d.size))
-        )
-        .selection()
-
-      label = labels
-        .selectAll("text")
-        .data(newNodes, (d) => d.id)
-        .join((enter) =>
-          enter
-            .append("text")
-            .attr("class", ".label")
-            .attr("text-anchor", "start")
-            .style("opacity", 0.2)
-        )
-
-      labelName = labelsName
-        .selectAll("text")
-        .data(newNodes, (d) => d.id)
-        .join((enter) =>
-          enter
-            .append("text")
-            .attr("text-anchor", "start")
-            .style("opacity", 0.4)
-            .attr("fill", theme.grey)
-        )
-
-      node.on("click", (event, d) => {
-        navigate(`/languages?repo=${d.name}`)
-      })
-
-      node.on("mouseover", (event, d) => {
-        tooltip
-          .style("opacity", 1)
-          .style("display", "flex")
-          .style("left", event.pageX + 10 + "px")
-          .style("top", `${event.pageY + d.children.length}px`).html(`
-            ${d.children.map((item) => `${item.name} ${item.size}`)}
-            `)
-      })
-
-      node.on("mouseout", (event, d) => {
-        tooltip.style("opacity", 0).style("display", "none")
-      })
-
-      forceSimulation.nodes(newNodes)
-      forceSimulation.alphaTarget(0.01).restart().tick()
-      forceSimulation.on("tick", ticked)
-    },
-  })
-
   return {
     force: forceSimulation,
-    graph: graph,
+    graph: Object.assign(SVG.node(), {
+      update(nodes, date) {
+        console.log(date)
+        const oldNodesMap = new Map(node.data().map((d) => [d.id, d]))
+        const newNodes = nodes.map((d) => {
+          return Object.assign(oldNodesMap.get(d.id) || {}, d)
+        })
+
+        node = node
+          .data(newNodes, (d) => d.id)
+          .join(
+            (enter) =>
+              enter
+                .append("circle")
+                .attr("class", (d) => `github ${d.name}`)
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
+                .attr("r", (d) => 0),
+            (update) =>
+              update
+                .transition()
+                .duration(750)
+                .ease(d3.easeLinear)
+                .attr("r", (d) => radiusScale(d.size))
+          )
+          .selection()
+
+        label = labels
+          .selectAll("text")
+          .data(newNodes, (d) => d.id)
+          .join((enter) =>
+            enter
+              .append("text")
+              .attr("class", ".label")
+              .attr("text-anchor", "start")
+              .style("opacity", 0.2)
+          )
+
+        labelName = labelsName
+          .selectAll("text")
+          .data(newNodes, (d) => d.id)
+          .join((enter) =>
+            enter
+              .append("text")
+              .attr("text-anchor", "start")
+              .style("opacity", 0.4)
+              .attr("fill", theme.grey)
+          )
+
+        node.on("click", (event, d) => {
+          navigate(`/languages?repo=${d.name}&date=${date}`)
+        })
+
+        node.on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .style("display", "flex")
+            .style("left", event.pageX + 10 + "px")
+            .style("top", `${event.pageY + d.children.length}px`).html(`
+              ${d.children.map((item) => `${item.name} ${item.size}`)}
+              `)
+        })
+
+        node.on("mouseout", (event, d) => {
+          tooltip.style("opacity", 0).style("display", "none")
+        })
+
+        forceSimulation.nodes(newNodes)
+        forceSimulation.alphaTarget(0.01).restart().tick()
+        forceSimulation.on("tick", ticked)
+      },
+    }),
   }
 }

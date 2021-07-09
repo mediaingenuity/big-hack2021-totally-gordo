@@ -84,13 +84,13 @@ const RepoHistory = () => {
       force = objDraw.force
       setDrawing(objDraw)
     }
-    return () => force.stop()
+    return () => force?.stop()
   }, [drawing, setDrawing])
 
   const handleSelectYear = (index: number, time: Date) => {
     drawing.force.stop()
     setYear(format(new Date(time)))
-    drawing.graph.update(createNodes(data[index]))
+    drawing.graph.update(createNodes(data[index]), data[index].date)
   }
 
   return (
